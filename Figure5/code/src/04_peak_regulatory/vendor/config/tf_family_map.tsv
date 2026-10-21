@@ -1,0 +1,880 @@
+motif_id	motif_name	family	analysis_level	member_type
+MA0004.1	Arnt		unassigned	monomer
+MA0069.1	PAX6		unassigned	monomer
+MA0071.1	RORA	Nuclear receptor	secondary	monomer
+MA0074.1	RXRA::VDR	Nuclear receptor	secondary	heterodimer
+MA0101.1	REL		unassigned	monomer
+MA0107.1	RELA		unassigned	monomer
+MA0115.1	NR1H2::RXRA	Nuclear receptor	secondary	heterodimer
+MA0116.1	Znf423		unassigned	monomer
+MA0119.1	NFIC::TLX1	NFI	primary	heterodimer
+MA0130.1	ZNF354C		unassigned	monomer
+MA0142.1	Pou5f1::Sox2	SOX	primary	heterodimer
+MA0149.1	EWSR1-FLI1		unassigned	monomer
+MA0151.1	Arid3a		unassigned	monomer
+MA0155.1	INSM1		unassigned	monomer
+MA0159.1	RARA::RXRA	Nuclear receptor	secondary	heterodimer
+MA0163.1	PLAG1		unassigned	monomer
+MA0145.2	Tfcp2l1		unassigned	monomer
+MA0468.1	DUX4		unassigned	monomer
+MA0515.1	Sox6	SOX	primary	monomer
+MA0258.2	ESR2	Nuclear receptor	secondary	monomer
+MA0595.1	SREBF1		unassigned	monomer
+MA0596.1	SREBF2		unassigned	monomer
+MA0599.1	KLF5		unassigned	monomer
+MA0604.1	Atf1		unassigned	monomer
+MA0608.1	Creb3l2		unassigned	monomer
+MA0613.1	FOXG1		unassigned	monomer
+MA0614.1	Foxj2		unassigned	monomer
+MA0636.1	BHLHE41		unassigned	monomer
+MA0641.1	ELF4		unassigned	monomer
+MA0042.2	FOXI1		unassigned	monomer
+MA0033.2	FOXL1		unassigned	monomer
+MA0153.2	HNF1B		unassigned	monomer
+MA0486.2	HSF1		unassigned	monomer
+MA0653.1	IRF9		unassigned	monomer
+MA0655.1	JDP2		unassigned	monomer
+MA0660.1	MEF2B		unassigned	monomer
+MA0663.1	MLX		unassigned	monomer
+MA0665.1	MSC		unassigned	monomer
+MA0667.1	MYF6		unassigned	monomer
+MA0669.1	NEUROG2		unassigned	monomer
+MA0676.1	Nr2e1	Nuclear receptor	secondary	monomer
+MA0678.1	OLIG2		unassigned	monomer
+MA0068.2	PAX4		unassigned	monomer
+MA0512.2	Rxra	Nuclear receptor	secondary	monomer
+MA0083.3	SRF		unassigned	monomer
+MA0009.2	TBXT		unassigned	monomer
+MA0689.1	TBX20		unassigned	monomer
+MA0691.1	TFAP4		unassigned	monomer
+MA0696.1	ZIC1		unassigned	monomer
+MA0713.1	PHOX2A		unassigned	monomer
+MA0715.1	PROP1		unassigned	monomer
+MA0724.1	VENTX		unassigned	monomer
+MA0728.1	Nr2F6	Nuclear receptor	secondary	monomer
+MA0729.1	RARA	Nuclear receptor	secondary	monomer
+MA0730.1	RARA	Nuclear receptor	secondary	monomer
+MA0731.1	BCL6B		unassigned	monomer
+MA0472.2	EGR2		unassigned	monomer
+MA0736.1	GLIS2		unassigned	monomer
+MA0737.1	GLIS3		unassigned	monomer
+MA0741.1	KLF16		unassigned	monomer
+MA0088.2	ZNF143		unassigned	monomer
+MA0758.1	E2F7		unassigned	monomer
+MA0770.1	HSF2		unassigned	monomer
+MA0771.1	HSF4		unassigned	monomer
+MA0773.1	MEF2D		unassigned	monomer
+MA0774.1	MEIS2		unassigned	monomer
+MA0776.1	MYBL1		unassigned	monomer
+MA0777.1	MYBL2		unassigned	monomer
+MA0105.4	NFKB1		unassigned	monomer
+MA0780.1	PAX3		unassigned	monomer
+MA0783.1	PKNOX2		unassigned	monomer
+MA0787.1	POU3F2		unassigned	monomer
+MA0788.1	POU3F3		unassigned	monomer
+MA0789.1	POU3F4		unassigned	monomer
+MA0792.1	POU5F1B		unassigned	monomer
+MA0794.1	PROX1		unassigned	monomer
+MA0795.1	SMAD3		unassigned	monomer
+MA0796.1	TGIF1		unassigned	monomer
+MA0797.1	TGIF2		unassigned	monomer
+MA0511.2	RUNX2		unassigned	monomer
+MA0801.1	MGA		unassigned	monomer
+MA0803.1	TBX15		unassigned	monomer
+MA0805.1	TBX1		unassigned	monomer
+MA0806.1	TBX4		unassigned	monomer
+MA0807.1	TBX5		unassigned	monomer
+MA0808.1	TEAD3		unassigned	monomer
+MA0813.1	TFAP2B		unassigned	monomer
+MA0815.1	TFAP2C		unassigned	monomer
+MA0816.1	Ascl2		unassigned	monomer
+MA0822.1	HES7		unassigned	monomer
+MA0823.1	HEY1		unassigned	monomer
+MA0826.1	OLIG1		unassigned	monomer
+MA0827.1	OLIG3		unassigned	monomer
+MA0838.1	CEBPG		unassigned	monomer
+MA0845.1	FOXB1		unassigned	monomer
+MA0032.2	FOXC1		unassigned	monomer
+MA0848.1	FOXO4		unassigned	monomer
+MA0849.1	FOXO6		unassigned	monomer
+MA0850.1	FOXP3		unassigned	monomer
+MA0855.1	RXRB	Nuclear receptor	secondary	monomer
+MA0856.1	RXRG	Nuclear receptor	secondary	monomer
+MA0857.1	Rarb	Nuclear receptor	secondary	monomer
+MA0858.1	Rarb	Nuclear receptor	secondary	monomer
+MA0860.1	Rarg	Nuclear receptor	secondary	monomer
+MA0525.2	TP63		unassigned	monomer
+MA0106.3	TP53		unassigned	monomer
+MA0862.1	GMEB2		unassigned	monomer
+MA0863.1	MTF1		unassigned	monomer
+MA0024.3	E2F1		unassigned	monomer
+MA0866.1	SOX21	SOX	primary	monomer
+MA0870.1	Sox1	SOX	primary	monomer
+MA0872.1	TFAP2A		unassigned	monomer
+MA1124.1	ZNF24		unassigned	monomer
+MA1155.1	ZSCAN4		unassigned	monomer
+MA1127.1	FOSB::JUN		unassigned	monomer
+MA1129.1	FOSL1::JUN		unassigned	monomer
+MA1136.1	FOSB::JUNB		unassigned	monomer
+MA1420.1	IRF5		unassigned	monomer
+MA1421.1	TCF7L1		unassigned	monomer
+MA1468.1	ATOH7		unassigned	monomer
+MA1485.1	FERD3L		unassigned	monomer
+MA1489.1	FOXN3		unassigned	monomer
+MA1493.1	HES6		unassigned	monomer
+MA1509.1	IRF6		unassigned	monomer
+MA1538.1	NR2F1	Nuclear receptor	secondary	monomer
+MA1539.1	NR2F6	Nuclear receptor	secondary	monomer
+MA1555.1	RXRB	Nuclear receptor	secondary	monomer
+MA1556.1	RXRG	Nuclear receptor	secondary	monomer
+MA1557.1	SMAD5		unassigned	monomer
+MA1570.1	TFAP4		unassigned	monomer
+MA1571.1	TGIF2LX		unassigned	monomer
+MA1572.1	TGIF2LY		unassigned	monomer
+MA1580.1	ZBTB32		unassigned	monomer
+MA1587.1	ZNF135		unassigned	monomer
+MA1588.1	ZNF136		unassigned	monomer
+MA1594.1	ZNF382		unassigned	monomer
+MA1596.1	ZNF460		unassigned	monomer
+MA1597.1	ZNF528		unassigned	monomer
+MA0158.2	HOXA5		unassigned	monomer
+MA0912.2	HOXD3		unassigned	monomer
+MA0623.2	NEUROG1		unassigned	monomer
+MA1715.1	ZNF707		unassigned	monomer
+MA1718.1	ZNF8		unassigned	monomer
+MA1684.1	Foxn1		unassigned	monomer
+MA1931.1	ELK1::HOXA1		unassigned	monomer
+MA1957.1	HOXB2::ELK1		unassigned	monomer
+MA1962.1	POU2F1::SOX2		unassigned	monomer
+MA1972.1	ZFP14		unassigned	monomer
+MA1980.1	ZNF418		unassigned	monomer
+MA1985.1	ZNF669		unassigned	monomer
+MA0079.5	SP1		unassigned	monomer
+MA0509.3	RFX1	RFX	primary	monomer
+MA0516.3	SP2		unassigned	monomer
+MA0607.2	BHLHA15		unassigned	monomer
+MA0685.2	SP4		unassigned	monomer
+MA0740.2	KLF14		unassigned	monomer
+MA0742.2	KLF12		unassigned	monomer
+MA0798.3	RFX3	RFX	primary	monomer
+MA0818.2	BHLHE22		unassigned	monomer
+MA0821.2	HES5		unassigned	monomer
+MA0831.3	TFE3		unassigned	monomer
+MA0878.3	CDX1		unassigned	monomer
+MA0884.2	DUXA		unassigned	monomer
+MA1511.2	KLF10		unassigned	monomer
+MA1532.2	NR1D2	Nuclear receptor	secondary	monomer
+MA1547.2	PITX2		unassigned	monomer
+MA1563.2	SOX18	SOX	primary	monomer
+MA1573.2	Thap11		unassigned	monomer
+MA1601.2	ZNF75D		unassigned	monomer
+MA1633.2	BACH1		unassigned	monomer
+MA0621.2	mix-a		unassigned	monomer
+MA0259.2	ARNT::HIF1A		unassigned	monomer
+MA2323.1	Pgr	Nuclear receptor	secondary	monomer
+MA0019.2	Ddit3::Cebpa		unassigned	monomer
+MA0040.2	Foxq1		unassigned	monomer
+MA2093.1	HOXB1		unassigned	monomer
+MA2094.1	PAX8		unassigned	monomer
+MA2096.1	ZNF524		unassigned	monomer
+MA2097.1	ZNF75A		unassigned	monomer
+MA2098.1	ZNF766		unassigned	monomer
+MA2099.1	ZNF770		unassigned	monomer
+MA2100.1	ZSCAN16		unassigned	monomer
+MA2101.1	ZNF677		unassigned	monomer
+MA2102.1	ZBTB17		unassigned	monomer
+MA2117.1	FOXP4		unassigned	monomer
+MA2118.1	FOXS1		unassigned	monomer
+MA2119.1	HOXA3		unassigned	monomer
+MA2120.1	ZNF184		unassigned	monomer
+MA2121.1	ZNF213		unassigned	monomer
+MA2324.1	BCL11A		unassigned	monomer
+MA2325.1	EPAS1		unassigned	monomer
+MA2326.1	IKZF2		unassigned	monomer
+MA2327.1	PGR	Nuclear receptor	secondary	monomer
+MA2328.1	ZBED4		unassigned	monomer
+MA2329.1	ZBTB11		unassigned	monomer
+MA2330.1	ZBTB24		unassigned	monomer
+MA2331.1	ZNF157		unassigned	monomer
+MA2332.1	ZNF175		unassigned	monomer
+MA2333.1	ZNF35		unassigned	monomer
+MA2334.1	ZNF547		unassigned	monomer
+MA2335.1	ZNF558		unassigned	monomer
+MA2336.1	ZSCAN21		unassigned	monomer
+MA2341.1	FEZF2		unassigned	monomer
+MA0634.2	ALX3		unassigned	monomer
+MA0690.3	TBX21		unassigned	monomer
+MA1463.2	ARGFX		unassigned	monomer
+MA1464.2	ARNT2		unassigned	monomer
+MA1100.3	ASCL1		unassigned	monomer
+MA1631.2	ASCL1		unassigned	monomer
+MA1632.2	ATF2		unassigned	monomer
+MA0605.3	ATF3		unassigned	monomer
+MA0833.3	ATF4		unassigned	monomer
+MA1466.2	ATF6		unassigned	monomer
+MA0834.2	ATF7		unassigned	monomer
+MA0496.4	MAFK		unassigned	monomer
+MA1101.3	BACH2		unassigned	monomer
+MA1470.2	BACH2		unassigned	monomer
+MA0877.4	BARHL1		unassigned	monomer
+MA0635.2	BARHL2		unassigned	monomer
+MA0875.2	BARX1		unassigned	monomer
+MA1471.2	BARX2		unassigned	monomer
+MA1634.2	BATF		unassigned	monomer
+MA0462.3	BATF::JUN		unassigned	monomer
+MA0488.2	JUN		unassigned	monomer
+MA0835.3	BATF3		unassigned	monomer
+MA0463.3	BCL6		unassigned	monomer
+MA1635.2	BHLHE22		unassigned	monomer
+MA0817.2	BHLHE23		unassigned	monomer
+MA0464.3	BHLHE40		unassigned	monomer
+MA1928.2	BNC2		unassigned	monomer
+MA0876.2	BSX		unassigned	monomer
+MA0465.3	CDX2		unassigned	monomer
+MA1473.2	CDX4		unassigned	monomer
+MA0102.5	CEBPA		unassigned	monomer
+MA0466.4	CEBPB		unassigned	monomer
+MA0836.3	CEBPD		unassigned	monomer
+MA0837.3	CEBPE		unassigned	monomer
+MA1636.2	CEBPG		unassigned	monomer
+MA0819.3	CLOCK		unassigned	monomer
+MA0018.5	CREB1		unassigned	monomer
+MA0638.2	CREB3		unassigned	monomer
+MA0839.2	CREB3L1		unassigned	monomer
+MA1474.2	CREB3L4		unassigned	monomer
+MA1475.2	CREB3L4		unassigned	monomer
+MA0609.3	CREM		unassigned	monomer
+MA0139.2	CTCF		unassigned	monomer
+MA1929.2	CTCF		unassigned	monomer
+MA1930.2	CTCF		unassigned	monomer
+MA1102.3	CTCFL		unassigned	monomer
+MA0754.3	CUX1		unassigned	monomer
+MA0901.3	HOXB13		unassigned	monomer
+MA0755.2	CUX2		unassigned	monomer
+MA0639.2	DBP		unassigned	monomer
+MA0879.3	DLX1		unassigned	monomer
+MA0882.2	DLX6		unassigned	monomer
+MA0610.2	DMRT3		unassigned	monomer
+MA1707.2	DMRTA1		unassigned	monomer
+MA1478.2	DMRTA2		unassigned	monomer
+MA1479.2	DMRTC2		unassigned	monomer
+MA1480.2	DPRX		unassigned	monomer
+MA1481.2	DRGX		unassigned	monomer
+MA0864.3	E2F2		unassigned	monomer
+MA0469.4	E2F3		unassigned	monomer
+MA0756.3	ONECUT2		unassigned	monomer
+MA0470.3	E2F4		unassigned	monomer
+MA0471.3	E2F6		unassigned	monomer
+MA0865.3	E2F8		unassigned	monomer
+MA0154.5	EBF1		unassigned	monomer
+MA1637.2	EBF3		unassigned	monomer
+MA0162.5	EGR1		unassigned	monomer
+MA0732.2	EGR3		unassigned	monomer
+MA0733.2	EGR4		unassigned	monomer
+MA0598.4	EHF		unassigned	monomer
+MA0473.4	ELF1		unassigned	monomer
+MA1483.3	ELF2		unassigned	monomer
+MA0640.3	ELF3		unassigned	monomer
+MA0028.3	ELK1		unassigned	monomer
+MA0800.2	EOMES		unassigned	monomer
+MA1708.2	ETV7		unassigned	monomer
+MA1495.2	HOXA1		unassigned	monomer
+MA1932.2	ELK1::HOXB13		unassigned	monomer
+MA0779.2	PAX1		unassigned	monomer
+MA0014.4	PAX5		unassigned	monomer
+MA0781.2	PAX9		unassigned	monomer
+MA0686.2	SPDEF		unassigned	monomer
+MA1933.2	ELK1::SREBF2		unassigned	monomer
+MA0828.3	SREBF2		unassigned	monomer
+MA0843.2	TEF		unassigned	monomer
+MA0759.3	ELK3		unassigned	monomer
+MA0076.3	ELK4		unassigned	monomer
+MA0612.3	EMX1		unassigned	monomer
+MA0886.2	EMX2		unassigned	monomer
+MA0027.3	EN1		unassigned	monomer
+MA0642.3	EN2		unassigned	monomer
+MA0760.2	ERF		unassigned	monomer
+MA1934.2	ERF::FIGLA		unassigned	monomer
+MA0820.2	FIGLA		unassigned	monomer
+MA1935.2	ERF::FOXI1		unassigned	monomer
+MA1936.2	ERF::FOXO1		unassigned	monomer
+MA1937.2	ERF::HOXB13		unassigned	monomer
+MA0058.4	MAX		unassigned	monomer
+MA1938.2	ERF::NHLH1		unassigned	monomer
+MA0048.3	NHLH1		unassigned	monomer
+MA1939.2	ERF::SREBF2		unassigned	monomer
+MA0112.4	ESR1	Nuclear receptor	secondary	monomer
+MA0592.4	ESRRA	Nuclear receptor	secondary	monomer
+MA0141.4	ESRRB	Nuclear receptor	secondary	monomer
+MA0644.3	ESX1		unassigned	monomer
+MA0098.4	ETS1		unassigned	monomer
+MA1484.2	ETS2		unassigned	monomer
+MA0761.3	ETV1		unassigned	monomer
+MA0762.2	ETV2		unassigned	monomer
+MA1940.2	ETV2::DRGX		unassigned	monomer
+MA1941.2	ETV2::FIGLA		unassigned	monomer
+MA1942.2	ETV2::FOXI1		unassigned	monomer
+MA1943.2	ETV2::HOXB13		unassigned	monomer
+MA0763.2	ETV3		unassigned	monomer
+MA0764.4	ETV4		unassigned	monomer
+MA0765.4	ETV5		unassigned	monomer
+MA1944.2	ETV5::DRGX		unassigned	monomer
+MA1945.2	ETV5::FIGLA		unassigned	monomer
+MA1946.2	ETV5::FOXI1		unassigned	monomer
+MA1947.2	ETV5::FOXO1		unassigned	monomer
+MA1948.2	ETV5::HOXA2		unassigned	monomer
+MA0900.3	HOXA2		unassigned	monomer
+MA0645.2	ETV6		unassigned	monomer
+MA0887.2	EVX1		unassigned	monomer
+MA0888.2	EVX2		unassigned	monomer
+MA0156.4	FEV		unassigned	monomer
+MA0475.3	FLI1		unassigned	monomer
+MA1949.2	FLI1::DRGX		unassigned	monomer
+MA1950.2	FLI1::FOXI1		unassigned	monomer
+MA0476.2	FOS		unassigned	monomer
+MA1951.2	FOS		unassigned	monomer
+MA0099.4	FOS::JUN		unassigned	monomer
+MA1126.2	FOS::JUN		unassigned	monomer
+MA1134.2	FOS::JUNB		unassigned	monomer
+MA1140.3	JUNB		unassigned	monomer
+MA0490.3	JUNB		unassigned	monomer
+MA1141.2	FOS::JUND		unassigned	monomer
+MA0492.2	JUND		unassigned	monomer
+MA0491.3	JUND		unassigned	monomer
+MA1135.2	FOSB::JUNB		unassigned	monomer
+MA0477.3	FOSL1		unassigned	monomer
+MA1128.2	FOSL1::JUN		unassigned	monomer
+MA1137.2	FOSL1::JUNB		unassigned	monomer
+MA1142.2	FOSL1::JUND		unassigned	monomer
+MA1143.2	FOSL1::JUND		unassigned	monomer
+MA0478.2	FOSL2		unassigned	monomer
+MA1130.2	FOSL2::JUN		unassigned	monomer
+MA1131.2	FOSL2::JUN		unassigned	monomer
+MA1138.2	FOSL2::JUNB		unassigned	monomer
+MA1139.2	FOSL2::JUNB		unassigned	monomer
+MA1144.2	FOSL2::JUND		unassigned	monomer
+MA1145.2	FOSL2::JUND		unassigned	monomer
+MA0148.5	FOXA1		unassigned	monomer
+MA0047.4	FOXA2		unassigned	monomer
+MA1683.2	FOXA3		unassigned	monomer
+MA0846.2	FOXC2		unassigned	monomer
+MA0031.2	FOXD1		unassigned	monomer
+MA0847.4	FOXD2		unassigned	monomer
+MA0041.3	FOXD3		unassigned	monomer
+MA1487.3	FOXE1		unassigned	monomer
+MA0030.2	FOXF2		unassigned	monomer
+MA0479.2	FOXH1		unassigned	monomer
+MA1952.2	FOXJ2::ELF1		unassigned	monomer
+MA0682.3	PITX1		unassigned	monomer
+MA0852.3	FOXK1		unassigned	monomer
+MA1103.3	FOXK2		unassigned	monomer
+MA1953.2	FOXO1::ELF1		unassigned	monomer
+MA1954.2	FOXO1::ELK1		unassigned	monomer
+MA1955.2	FOXO1::ELK3		unassigned	monomer
+MA1956.2	FOXO1::FLI1		unassigned	monomer
+MA0481.4	FOXP1		unassigned	monomer
+MA0593.2	FOXP2		unassigned	monomer
+MA0062.4	GABPA		unassigned	monomer
+MA0035.5	GATA1		unassigned	monomer
+MA0140.3	GATA1::TAL1		unassigned	monomer
+MA0036.4	GATA2		unassigned	monomer
+MA0482.3	GATA4		unassigned	monomer
+MA0766.3	GATA5		unassigned	monomer
+MA1104.3	GATA6		unassigned	monomer
+MA0889.2	GBX1		unassigned	monomer
+MA0890.2	GBX2		unassigned	monomer
+MA0646.2	GCM1		unassigned	monomer
+MA0143.5	SOX2	SOX	primary	monomer
+MA0767.2	GCM2		unassigned	monomer
+MA0038.3	GFI1		unassigned	monomer
+MA1491.3	GLI3		unassigned	monomer
+MA0735.2	GLIS1		unassigned	monomer
+MA0647.2	GRHL1		unassigned	monomer
+MA1105.3	GRHL2		unassigned	monomer
+MA0648.2	GSC		unassigned	monomer
+MA0891.2	GSC2		unassigned	monomer
+MA0892.2	GSX1		unassigned	monomer
+MA0893.3	GSX2		unassigned	monomer
+MA0522.4	TCF3		unassigned	monomer
+MA1638.2	HAND2		unassigned	monomer
+MA1099.3	HES1		unassigned	monomer
+MA0616.3	HES2		unassigned	monomer
+MA0894.2	HESX1		unassigned	monomer
+MA0649.2	HEY2		unassigned	monomer
+MA0738.2	HIC2		unassigned	monomer
+MA1106.2	HIF1A		unassigned	monomer
+MA0131.3	HINFP		unassigned	monomer
+MA0043.4	HLF		unassigned	monomer
+MA0895.2	HMBOX1		unassigned	monomer
+MA0046.3	HNF1A		unassigned	monomer
+MA1494.2	HNF4A	Nuclear receptor	secondary	monomer
+MA0114.5	HNF4A	Nuclear receptor	secondary	monomer
+MA0484.3	HNF4G	Nuclear receptor	secondary	monomer
+MA0899.2	HOXA10		unassigned	monomer
+MA1496.2	HOXA4		unassigned	monomer
+MA1497.2	HOXA6		unassigned	monomer
+MA1498.3	HOXA7		unassigned	monomer
+MA0594.3	HOXA9		unassigned	monomer
+MA0902.3	HOXB2		unassigned	monomer
+MA1566.3	TBX3		unassigned	monomer
+MA0903.2	HOXB3		unassigned	monomer
+MA1499.2	HOXB4		unassigned	monomer
+MA0904.3	HOXB5		unassigned	monomer
+MA1500.2	HOXB6		unassigned	monomer
+MA1501.2	HOXB7		unassigned	monomer
+MA1502.2	HOXB8		unassigned	monomer
+MA1503.2	HOXB9		unassigned	monomer
+MA0905.2	HOXC10		unassigned	monomer
+MA0651.3	HOXC11		unassigned	monomer
+MA0906.2	HOXC12		unassigned	monomer
+MA0907.2	HOXC13		unassigned	monomer
+MA1504.2	HOXC4		unassigned	monomer
+MA1505.2	HOXC8		unassigned	monomer
+MA0485.3	HOXC9		unassigned	monomer
+MA1506.2	HOXD10		unassigned	monomer
+MA0908.2	HOXD11		unassigned	monomer
+MA0873.2	HOXD12		unassigned	monomer
+MA1958.2	HOXD12::ELK1		unassigned	monomer
+MA1507.2	HOXD4		unassigned	monomer
+MA0910.3	HOXD8		unassigned	monomer
+MA0913.3	HOXD9		unassigned	monomer
+MA1508.2	IKZF1		unassigned	monomer
+MA0051.2	IRF2		unassigned	monomer
+MA1418.2	IRF3		unassigned	monomer
+MA1419.2	IRF4		unassigned	monomer
+MA0772.2	IRF7		unassigned	monomer
+MA0652.2	IRF8		unassigned	monomer
+MA0914.2	ISL2		unassigned	monomer
+MA0654.2	ISX		unassigned	monomer
+MA0656.2	JDP2		unassigned	monomer
+MA1132.2	JUN::JUNB		unassigned	monomer
+MA1133.2	JUN::JUNB		unassigned	monomer
+MA0493.3	KLF1		unassigned	monomer
+MA1512.2	KLF11		unassigned	monomer
+MA0657.2	KLF13		unassigned	monomer
+MA1513.2	KLF15		unassigned	monomer
+MA1514.2	KLF17		unassigned	monomer
+MA1515.2	KLF2		unassigned	monomer
+MA1516.2	KLF3		unassigned	monomer
+MA0039.5	KLF4		unassigned	monomer
+MA1517.2	KLF6		unassigned	monomer
+MA1959.2	KLF7		unassigned	monomer
+MA1107.3	KLF9		unassigned	monomer
+MA0618.2	LBX1		unassigned	monomer
+MA0699.2	LBX2		unassigned	monomer
+MA0700.3	LHX2		unassigned	monomer
+MA1519.2	LHX5		unassigned	monomer
+MA0658.2	LHX6		unassigned	monomer
+MA0701.3	LHX9		unassigned	monomer
+MA0702.3	LMX1A		unassigned	monomer
+MA0703.3	LMX1B		unassigned	monomer
+MA1520.2	MAF		unassigned	monomer
+MA0501.2	MAF::NFE2		unassigned	monomer
+MA0841.2	NFE2		unassigned	monomer
+MA1521.2	MAFA		unassigned	monomer
+MA0495.4	MAFF		unassigned	monomer
+MA0089.3	MAFG::NFE2L1		unassigned	monomer
+MA0059.2	MAX::MYC		unassigned	monomer
+MA0147.4	MYC		unassigned	monomer
+MA1522.2	MAZ		unassigned	monomer
+MA0052.5	MEF2A		unassigned	monomer
+MA0497.2	MEF2C		unassigned	monomer
+MA0498.3	MEIS1		unassigned	monomer
+MA1639.2	MEIS1		unassigned	monomer
+MA1640.2	MEIS2		unassigned	monomer
+MA0775.2	MEIS3		unassigned	monomer
+MA0661.2	MEOX1		unassigned	monomer
+MA0706.2	MEOX2		unassigned	monomer
+MA1960.2	MGA::EVX1		unassigned	monomer
+MA0620.4	MITF		unassigned	monomer
+MA0662.2	MIXL1		unassigned	monomer
+MA0664.2	MLXIPL		unassigned	monomer
+MA0825.2	MNT		unassigned	monomer
+MA0707.3	MNX1		unassigned	monomer
+MA1523.2	MSANTD3		unassigned	monomer
+MA0666.3	MSX1		unassigned	monomer
+MA0708.3	MSX2		unassigned	monomer
+MA1108.3	MXI1		unassigned	monomer
+MA0100.4	MYB		unassigned	monomer
+MA0104.5	MYCN		unassigned	monomer
+MA1641.2	MYF5		unassigned	monomer
+MA0499.3	MYOD1		unassigned	monomer
+MA0500.3	MYOG		unassigned	monomer
+MA0056.3	MZF1		unassigned	monomer
+MA1109.2	NEUROD1		unassigned	monomer
+MA1642.2	NEUROG2		unassigned	monomer
+MA0625.3	NFATC3		unassigned	monomer
+MA1525.3	NFATC4		unassigned	monomer
+MA0670.2	NFIA	NFI	primary	monomer
+MA1643.2	NFIB	NFI	primary	monomer
+MA0161.3	NFIC	NFI	primary	monomer
+MA1527.2	NFIC	NFI	primary	monomer
+MA0025.3	NFIL3		unassigned	monomer
+MA0671.2	NFIX	NFI	primary	monomer
+MA1528.2	NFIX	NFI	primary	monomer
+MA0778.2	NFKB2		unassigned	monomer
+MA0060.4	NFYA	NF-Y	primary	monomer
+MA0502.3	NFYB	NF-Y	primary	monomer
+MA1644.2	NFYC	NF-Y	primary	monomer
+MA1529.2	NHLH2		unassigned	monomer
+MA1645.2	NKX2-2		unassigned	monomer
+MA0672.2	NKX2-3		unassigned	monomer
+MA2003.2	NKX2-4		unassigned	monomer
+MA0063.3	NKX2-5		unassigned	monomer
+MA0673.2	NKX2-8		unassigned	monomer
+MA0674.2	NKX6-1		unassigned	monomer
+MA0675.2	NKX6-2		unassigned	monomer
+MA1530.2	NKX6-3		unassigned	monomer
+MA0710.2	NOTO		unassigned	monomer
+MA1531.2	NR1D1	Nuclear receptor	secondary	monomer
+MA1146.2	NR1H4::RXRA	Nuclear receptor	secondary	heterodimer
+MA1533.2	NR1I2	Nuclear receptor	secondary	monomer
+MA1534.2	NR1I3	Nuclear receptor	secondary	monomer
+MA1535.2	NR2C1	Nuclear receptor	secondary	monomer
+MA0504.2	NR2C2	Nuclear receptor	secondary	monomer
+MA1536.2	NR2C2	Nuclear receptor	secondary	monomer
+MA0017.3	NR2F1	Nuclear receptor	secondary	monomer
+MA1537.2	NR2F1	Nuclear receptor	secondary	monomer
+MA1111.2	NR2F2	Nuclear receptor	secondary	monomer
+MA0113.4	NR3C1	Nuclear receptor	secondary	monomer
+MA0727.2	NR3C2	Nuclear receptor	secondary	monomer
+MA1112.3	NR4A1	Nuclear receptor	secondary	monomer
+MA0160.3	NR4A2	Nuclear receptor	secondary	monomer
+MA1147.2	NR4A2::RXRA	Nuclear receptor	secondary	heterodimer
+MA1541.2	NR6A1	Nuclear receptor	secondary	monomer
+MA0842.3	NRL		unassigned	monomer
+MA0679.3	ONECUT1		unassigned	monomer
+MA0757.2	ONECUT3		unassigned	monomer
+MA1542.2	OSR1		unassigned	monomer
+MA1646.2	OSR2		unassigned	monomer
+MA0711.2	OTX1		unassigned	monomer
+MA0712.3	OTX2		unassigned	monomer
+MA1544.2	OVOL1		unassigned	monomer
+MA1545.2	OVOL2		unassigned	monomer
+MA1961.2	PATZ1		unassigned	monomer
+MA0067.3	PAX2		unassigned	monomer
+MA1546.2	PAX3		unassigned	monomer
+MA0070.2	PBX1		unassigned	monomer
+MA1113.3	PBX2		unassigned	monomer
+MA1114.2	PBX3		unassigned	monomer
+MA0132.3	PDX1		unassigned	monomer
+MA0681.3	PHOX2B		unassigned	monomer
+MA0714.2	PITX3		unassigned	monomer
+MA0782.3	PKNOX1		unassigned	monomer
+MA1548.2	PLAGL2		unassigned	monomer
+MA0784.3	POU1F1		unassigned	monomer
+MA0785.2	POU2F1		unassigned	monomer
+MA0507.3	POU2F2		unassigned	monomer
+MA0627.3	POU2F3		unassigned	monomer
+MA0786.2	POU3F1		unassigned	monomer
+MA0790.2	POU4F1		unassigned	monomer
+MA0683.2	POU4F2		unassigned	monomer
+MA0791.2	POU4F3		unassigned	monomer
+MA1115.2	POU5F1		unassigned	monomer
+MA0628.2	POU6F1		unassigned	monomer
+MA1549.2	POU6F1		unassigned	monomer
+MA0793.2	POU6F2		unassigned	monomer
+MA1148.2	PPARA::RXRA	Nuclear receptor	secondary	heterodimer
+MA1550.2	PPARD	Nuclear receptor	secondary	monomer
+MA0066.2	PPARG	Nuclear receptor	secondary	monomer
+MA0508.4	PRDM1		unassigned	monomer
+MA1723.2	PRDM9		unassigned	monomer
+MA0716.2	PRRX1		unassigned	monomer
+MA0075.4	PRRX2		unassigned	monomer
+MA1149.2	RARA::RXRG	Nuclear receptor	secondary	heterodimer
+MA1552.2	RARB	Nuclear receptor	secondary	monomer
+MA1553.2	RARG	Nuclear receptor	secondary	monomer
+MA0718.2	RAX		unassigned	monomer
+MA0717.2	RAX2		unassigned	monomer
+MA1116.2	RBPJ		unassigned	monomer
+MA1117.2	RELB		unassigned	monomer
+MA0138.3	REST		unassigned	monomer
+MA0600.3	RFX2	RFX	primary	monomer
+MA0799.3	RFX4	RFX	primary	monomer
+MA0510.3	RFX5	RFX	primary	monomer
+MA1554.2	RFX7	RFX	primary	monomer
+MA0719.2	RHOXF1		unassigned	monomer
+MA0072.2	RORA	Nuclear receptor	secondary	monomer
+MA1150.2	RORB	Nuclear receptor	secondary	monomer
+MA1151.2	RORC	Nuclear receptor	secondary	monomer
+MA0073.2	RREB1		unassigned	monomer
+MA0684.3	RUNX3		unassigned	monomer
+MA1963.2	SATB1		unassigned	monomer
+MA0743.3	SCRT1		unassigned	monomer
+MA0744.3	SCRT2		unassigned	monomer
+MA0630.2	SHOX		unassigned	monomer
+MA1118.2	SIX1		unassigned	monomer
+MA1119.2	SIX2		unassigned	monomer
+MA1964.2	SMAD2		unassigned	monomer
+MA1558.2	SNAI1		unassigned	monomer
+MA0745.3	SNAI2		unassigned	monomer
+MA1559.2	SNAI3		unassigned	monomer
+MA1560.2	SOHLH2		unassigned	monomer
+MA0442.3	SOX10	SOX	primary	monomer
+MA1561.2	SOX12	SOX	primary	monomer
+MA1120.2	SOX13	SOX	primary	monomer
+MA1562.2	SOX14	SOX	primary	monomer
+MA1152.2	SOX15	SOX	primary	monomer
+MA0867.3	SOX4	SOX	primary	monomer
+MA0868.3	SOX8	SOX	primary	monomer
+MA0077.2	SOX9	SOX	primary	monomer
+MA0746.3	SP3		unassigned	monomer
+MA1965.2	SP5		unassigned	monomer
+MA0747.2	SP8		unassigned	monomer
+MA1564.2	SP9		unassigned	monomer
+MA0081.3	SPIB		unassigned	monomer
+MA0687.2	SPIC		unassigned	monomer
+MA0829.3	SREBF1		unassigned	monomer
+MA0084.2	SRY		unassigned	monomer
+MA0137.4	STAT1		unassigned	monomer
+MA0517.2	STAT1::STAT2		unassigned	monomer
+MA0144.3	STAT3		unassigned	monomer
+MA0091.2	TAL1::TCF3		unassigned	monomer
+MA0802.2	TBR1		unassigned	monomer
+MA1565.2	TBX18		unassigned	monomer
+MA0804.2	TBX19		unassigned	monomer
+MA0688.2	TBX2		unassigned	monomer
+MA1648.2	TCF12		unassigned	monomer
+MA1568.2	TCF21		unassigned	monomer
+MA0830.3	TCF4		unassigned	monomer
+MA0769.3	TCF7		unassigned	monomer
+MA0523.2	TCF7L2		unassigned	monomer
+MA0632.3	TCFL5		unassigned	monomer
+MA0090.4	TEAD1		unassigned	monomer
+MA1121.2	TEAD2		unassigned	monomer
+MA0809.3	TEAD4		unassigned	monomer
+MA0810.2	TFAP2A		unassigned	monomer
+MA0003.5	TFAP2A		unassigned	monomer
+MA0811.2	TFAP2B		unassigned	monomer
+MA0812.2	TFAP2B		unassigned	monomer
+MA0524.3	TFAP2C		unassigned	monomer
+MA0814.3	TFAP2C		unassigned	monomer
+MA1569.2	TFAP2E		unassigned	monomer
+MA1966.2	TFAP4::ETV1		unassigned	monomer
+MA1967.2	TFAP4::FLI1		unassigned	monomer
+MA1968.2	TFCP2		unassigned	monomer
+MA1122.2	TFDP1		unassigned	monomer
+MA0692.2	TFEB		unassigned	monomer
+MA0871.3	TFEC		unassigned	monomer
+MA0597.3	THAP1		unassigned	monomer
+MA1969.2	THRA	Nuclear receptor	secondary	monomer
+MA1574.2	THRB	Nuclear receptor	secondary	monomer
+MA1575.2	THRB	Nuclear receptor	secondary	monomer
+MA1576.2	THRB	Nuclear receptor	secondary	monomer
+MA1577.2	TLX2		unassigned	monomer
+MA0861.2	TP73		unassigned	monomer
+MA1970.2	TRPS1		unassigned	monomer
+MA1123.3	TWIST1		unassigned	monomer
+MA0721.2	UNCX		unassigned	monomer
+MA0093.4	USF1		unassigned	monomer
+MA0526.5	USF2		unassigned	monomer
+MA0722.2	VAX1		unassigned	monomer
+MA0723.3	VAX2		unassigned	monomer
+MA1578.2	VEZF1		unassigned	monomer
+MA0725.2	VSX1		unassigned	monomer
+MA0726.2	VSX2		unassigned	monomer
+MA0844.2	XBP1		unassigned	monomer
+MA0748.3	YY2		unassigned	monomer
+MA0749.2	ZBED1		unassigned	monomer
+MA1971.2	ZBED2		unassigned	monomer
+MA1649.2	ZBTB12		unassigned	monomer
+MA1650.2	ZBTB14		unassigned	monomer
+MA0698.2	ZBTB18		unassigned	monomer
+MA1579.2	ZBTB26		unassigned	monomer
+MA0527.2	ZBTB33		unassigned	monomer
+MA1581.2	ZBTB6		unassigned	monomer
+MA0750.3	ZBTB7A		unassigned	monomer
+MA0694.2	ZBTB7B		unassigned	monomer
+MA0695.2	ZBTB7C		unassigned	monomer
+MA0103.4	ZEB1		unassigned	monomer
+MA1651.2	ZFP42		unassigned	monomer
+MA1583.2	ZFP57		unassigned	monomer
+MA0751.2	ZIC4		unassigned	monomer
+MA1584.2	ZIC5		unassigned	monomer
+MA1709.2	ZIM3		unassigned	monomer
+MA1585.2	ZKSCAN1		unassigned	monomer
+MA1973.2	ZKSCAN3		unassigned	monomer
+MA1652.2	ZKSCAN5		unassigned	monomer
+MA1589.2	ZNF140		unassigned	monomer
+MA1653.2	ZNF148		unassigned	monomer
+MA1654.2	ZNF16		unassigned	monomer
+MA1725.2	ZNF189		unassigned	monomer
+MA1974.2	ZNF211		unassigned	monomer
+MA1975.2	ZNF214		unassigned	monomer
+MA1710.2	ZNF257		unassigned	monomer
+MA0528.3	ZNF263		unassigned	monomer
+MA1592.2	ZNF274		unassigned	monomer
+MA1630.3	ZNF281		unassigned	monomer
+MA1154.2	ZNF282		unassigned	monomer
+MA1593.2	ZNF317		unassigned	monomer
+MA1976.2	ZNF320		unassigned	monomer
+MA1977.2	ZNF324		unassigned	monomer
+MA1726.2	ZNF331		unassigned	monomer
+MA1655.2	ZNF341		unassigned	monomer
+MA1711.2	ZNF343		unassigned	monomer
+MA1978.2	ZNF354A		unassigned	monomer
+MA1125.2	ZNF384		unassigned	monomer
+MA0752.2	ZNF410		unassigned	monomer
+MA1979.2	ZNF416		unassigned	monomer
+MA1727.2	ZNF417		unassigned	monomer
+MA1656.2	ZNF449		unassigned	monomer
+MA1712.2	ZNF454		unassigned	monomer
+MA1981.2	ZNF530		unassigned	monomer
+MA1728.2	ZNF549		unassigned	monomer
+MA1982.2	ZNF574		unassigned	monomer
+MA1983.2	ZNF582		unassigned	monomer
+MA1713.2	ZNF610		unassigned	monomer
+MA1657.2	ZNF652		unassigned	monomer
+MA1984.2	ZNF667		unassigned	monomer
+MA1714.2	ZNF675		unassigned	monomer
+MA1729.2	ZNF680		unassigned	monomer
+MA1599.2	ZNF682		unassigned	monomer
+MA1600.2	ZNF684		unassigned	monomer
+MA1986.2	ZNF692		unassigned	monomer
+MA1987.2	ZNF701		unassigned	monomer
+MA1730.2	ZNF708		unassigned	monomer
+MA0753.3	ZNF740		unassigned	monomer
+MA1716.2	ZNF76		unassigned	monomer
+MA1731.2	ZNF768		unassigned	monomer
+MA1717.2	ZNF784		unassigned	monomer
+MA1719.2	ZNF816		unassigned	monomer
+MA1720.2	ZNF85		unassigned	monomer
+MA1721.2	ZNF93		unassigned	monomer
+MA1602.2	ZSCAN29		unassigned	monomer
+MA1722.2	ZSCAN31		unassigned	monomer
+MA0111.1	Spz1		unassigned	monomer
+MA2095.1	Sox7	SOX	primary	monomer
+MA2122.1	Ebf4		unassigned	monomer
+MA2123.1	Hand1		unassigned	monomer
+MA2124.1	Hmga1		unassigned	monomer
+MA2125.1	Zfp809		unassigned	monomer
+MA2126.1	Zfp961		unassigned	monomer
+MA2337.1	Nr1h3	Nuclear receptor	secondary	monomer
+MA2338.1	Ppara	Nuclear receptor	secondary	monomer
+MA2339.1	Nanog		unassigned	monomer
+MA2340.1	Zbtb2		unassigned	monomer
+MA0006.2	Ahr::Arnt		unassigned	monomer
+MA0854.2	Alx1		unassigned	monomer
+MA0853.2	Alx4		unassigned	monomer
+MA0007.4	Ar	Nuclear receptor	secondary	monomer
+MA0601.2	Arid3b		unassigned	monomer
+MA0602.2	Arid5a		unassigned	monomer
+MA0603.2	Arntl		unassigned	monomer
+MA0874.2	Arx		unassigned	monomer
+MA1988.2	Atf3		unassigned	monomer
+MA0461.3	Atoh1		unassigned	monomer
+MA1467.3	Atoh1		unassigned	monomer
+MA0591.2	Bach1::Mafk		unassigned	monomer
+MA0489.3	Jun		unassigned	monomer
+MA1989.2	Bcl11B		unassigned	monomer
+MA1472.3	Bhlha15		unassigned	monomer
+MA0840.2	Creb5		unassigned	monomer
+MA0467.3	Crx		unassigned	monomer
+MA0650.4	Hoxa13		unassigned	monomer
+MA0885.3	Dlx2		unassigned	monomer
+MA0880.2	Dlx3		unassigned	monomer
+MA0881.2	Dlx4		unassigned	monomer
+MA1476.3	Dlx5		unassigned	monomer
+MA0883.2	Dmbx1		unassigned	monomer
+MA1603.2	Dmrt1		unassigned	monomer
+MA0611.3	Dux		unassigned	monomer
+MA1604.2	Ebf2		unassigned	monomer
+MA0136.4	Elf5		unassigned	monomer
+MA0480.3	Foxo1		unassigned	monomer
+MA0474.4	Erg		unassigned	monomer
+MA0643.2	Esrrg	Nuclear receptor	secondary	monomer
+MA1606.2	Foxf1		unassigned	monomer
+MA0851.2	Foxj3		unassigned	monomer
+MA1607.2	Foxl2		unassigned	monomer
+MA0157.4	Foxo3		unassigned	monomer
+MA0037.5	Gata3		unassigned	monomer
+MA0483.2	Gfi1B		unassigned	monomer
+MA1990.2	Gli1		unassigned	monomer
+MA0734.4	Gli2		unassigned	monomer
+MA0615.2	Gmeb1		unassigned	monomer
+MA0092.2	Hand1::Tcf3		unassigned	monomer
+MA0739.2	Hic1		unassigned	monomer
+MA0896.2	Hmx1		unassigned	monomer
+MA0897.2	Hmx2		unassigned	monomer
+MA0898.2	Hmx3		unassigned	monomer
+MA1991.2	Hnf1A		unassigned	monomer
+MA0911.2	Hoxa11		unassigned	monomer
+MA0909.4	Hoxd13		unassigned	monomer
+MA1992.2	Ikzf3		unassigned	monomer
+MA0050.4	Irf1		unassigned	monomer
+MA1608.2	Isl1		unassigned	monomer
+MA0768.3	Lef1		unassigned	monomer
+MA1518.3	Lhx1		unassigned	monomer
+MA0135.2	Lhx3		unassigned	monomer
+MA0704.2	Lhx4		unassigned	monomer
+MA0705.2	Lhx8		unassigned	monomer
+MA0117.3	Mafb		unassigned	monomer
+MA0659.4	Mafg		unassigned	monomer
+MA0029.2	Mecom		unassigned	monomer
+MA0622.2	Mlxip		unassigned	monomer
+MA1524.3	Msgn1		unassigned	monomer
+MA0709.2	Msx3		unassigned	monomer
+MA1993.2	Neurod2		unassigned	monomer
+MA0668.3	Neurod2		unassigned	monomer
+MA0606.3	Nfat5		unassigned	monomer
+MA0624.3	Nfatc1		unassigned	monomer
+MA0152.3	Nfatc2		unassigned	monomer
+MA0150.3	Nfe2l2		unassigned	monomer
+MA1994.2	Nkx2-1		unassigned	monomer
+MA0124.3	Nkx3-1		unassigned	monomer
+MA0122.4	Nkx3-2		unassigned	monomer
+MA0125.2	Nobox		unassigned	monomer
+MA0626.2	Npas2		unassigned	monomer
+MA1995.2	Npas4		unassigned	monomer
+MA1996.2	Nr1H2	Nuclear receptor	secondary	monomer
+MA0494.2	Nr1h3::Rxra		unassigned	monomer
+MA1110.3	Nr1H4	Nuclear receptor	secondary	monomer
+MA0164.2	Nr2e3	Nuclear receptor	secondary	monomer
+MA0677.2	Nr2f6	Nuclear receptor	secondary	monomer
+MA1540.3	NR5A1	Nuclear receptor	secondary	monomer
+MA0505.3	Nr5A2	Nuclear receptor	secondary	monomer
+MA0506.3	Nrf1		unassigned	monomer
+MA1997.2	Olig2		unassigned	monomer
+MA0680.3	Pax7		unassigned	monomer
+MA1615.2	Plagl1		unassigned	monomer
+MA0065.3	Pparg::Rxra	Nuclear receptor	secondary	heterodimer
+MA1998.2	Prdm14		unassigned	monomer
+MA1616.2	Prdm15		unassigned	monomer
+MA1647.3	Prdm4		unassigned	monomer
+MA1999.2	Prdm5		unassigned	monomer
+MA1618.2	Ptf1A		unassigned	monomer
+MA1619.2	Ptf1A		unassigned	monomer
+MA1620.2	Ptf1A		unassigned	monomer
+MA0859.2	Rarg	Nuclear receptor	secondary	monomer
+MA1724.2	Rfx6	RFX	primary	monomer
+MA0629.2	Rhox11		unassigned	monomer
+MA0002.3	Runx1		unassigned	monomer
+MA0720.2	Shox2		unassigned	monomer
+MA0631.2	Six3		unassigned	monomer
+MA2001.2	Six4		unassigned	monomer
+MA1153.2	Smad4		unassigned	monomer
+MA0869.3	Sox11	SOX	primary	monomer
+MA0078.3	Sox17	SOX	primary	monomer
+MA0514.3	Sox3	SOX	primary	monomer
+MA0087.3	Sox5	SOX	primary	monomer
+MA0080.7	Spi1		unassigned	monomer
+MA1623.2	Stat2		unassigned	monomer
+MA0518.2	Stat4		unassigned	monomer
+MA1624.2	Stat5a		unassigned	monomer
+MA0519.2	Stat5a::Stat5b		unassigned	monomer
+MA1625.2	Stat5b		unassigned	monomer
+MA0520.2	Stat6		unassigned	monomer
+MA1567.3	Tbx6		unassigned	monomer
+MA0521.3	Tcf12		unassigned	monomer
+MA0832.2	Tcf21		unassigned	monomer
+MA0633.3	Twist2		unassigned	monomer
+MA0693.4	Vdr	Nuclear receptor	secondary	monomer
+MA1627.2	Wt1		unassigned	monomer
+MA0095.4	Yy1		unassigned	monomer
+MA2002.2	Zfp335		unassigned	monomer
+MA0146.3	Zfx		unassigned	monomer
+MA1628.2	Zic1::Zic2		unassigned	monomer
+MA1629.2	Zic2		unassigned	monomer
+MA0697.3	Zic3		unassigned	monomer
+MA0619.2	LIN54		unassigned	monomer
+MA0108.3	TBP		unassigned	monomer

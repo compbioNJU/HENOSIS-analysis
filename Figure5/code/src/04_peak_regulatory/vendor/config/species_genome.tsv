@@ -1,0 +1,7 @@
+species	assembly	fasta	prefix	chrom_style
+human	hg38	data/genome/hg38_genomic.fna.gz	hg38_	as_is
+marmoset	calJac4	data/genome/calJac4_genomic.fna.gz	cj4_	as_is
+mouse	mm10	data/genome/mm10_genomic.fna.gz	mm10_	as_is
+macaque	rheMac8	data/genome/rheMac8_genomic.fna.gz	mm8_	add_chr
+opossum	monDom5	data/genome/monDom5_genomic.fna.gz	md5_	as_is
+bonobo	panPan1.1	data/genome/panpan1.1_genomic.fna.gz	pp1_	as_is

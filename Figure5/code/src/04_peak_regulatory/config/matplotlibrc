@@ -1,0 +1,23 @@
+# Applies to every process that imports matplotlib with MATPLOTLIBRC pointing
+# here -- including the VENDORED peak-regulatory steps, which never set these
+# themselves.
+#
+# WHY THIS FILE EXISTS RATHER THAN A LINE IN THE CODE
+# ---------------------------------------------------
+# matplotlib's default pdf.fonttype is 3, which writes text as Type-3 glyph
+# procedures. Those are not selectable and not editable in Illustrator, Inkscape
+# or Acrobat: the figure cannot be relabelled or translated without redrawing it.
+# The requirement for this repository is that every PDF keeps editable text.
+#
+# The vendored steps cannot be edited to fix this. Their value is that they are
+# byte-identical to the previous release's executed pipeline, and a single edited
+# line would make every hash in vendor/MANIFEST.json meaningless. Setting the
+# rcParams through the environment changes what those steps produce without
+# touching a byte of them, so the provenance stays intact.
+#
+# 42 = TrueType with a Unicode cmap, which is what an editable PDF needs.
+# (Identical to plotting.apply_style() in src/common/, which sets the same values
+# for analyses 01-03 in code, where there is no vendored file to protect.)
+pdf.fonttype: 42
+ps.fonttype: 42
+svg.fonttype: none

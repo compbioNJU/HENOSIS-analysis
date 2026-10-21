@@ -1,0 +1,11 @@
+file	decision	window	species	n_ranked_peaks	reason
+human-CS18-19_CS20_CS22-23.csv	excluded	early_embryonic	human	10000	the cells this ranking was computed over are 'progenitor' in this release, not astroglia; a model defined on them is not a model of astroglia. Preserved in the source directory; only removed from this arm.
+human-15-17wpc_11wpc.csv	kept	prenatal	human	9992	unaltered from the previous release
+human-newborn_toddler_infant.csv	kept	postnatal	human	9800	unaltered from the previous release
+human-adult_DN_adult.csv	kept	adult	human	9686	unaltered from the previous release
+marmoset-GD70-72_GD73_GD76_GD80_GD82.csv	kept	prenatal	marmoset	9997	unaltered from the previous release
+marmoset-P0_P60.csv	kept	postnatal	marmoset	6000	unaltered from the previous release
+marmoset-adult.csv	kept	adult	marmoset	8316	unaltered from the previous release
+mouse-E10_E11_E12_E13_E15_E17.csv	kept	prenatal	mouse	10000	unaltered from the previous release
+mouse-P4_P0_P7_P14.csv	kept	postnatal	mouse	9989	unaltered from the previous release
+mouse-P63_DN_P63.csv	kept	adult	mouse	9809	unaltered from the previous release

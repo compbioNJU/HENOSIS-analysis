@@ -1,0 +1,118 @@
+# =============================================================================
+# Central configuration for every analysis in this repository.
+#
+# Nothing downstream hard-codes a path: every script reads its inputs through
+# `src/common/config.py`, which loads this file. Change a path here, not in code.
+#
+# `project_root` is the only path that is resolved relative to the environment.
+# It defaults to the parent directory of this repository (i.e. the
+# `scATAC_science_result/` folder that holds `data/`), and can be overridden:
+#
+#     export SCATAC_PROJECT_ROOT=/path/to/scATAC_science_result
+#
+# Every other path below is written relative to `project_root`, or as an
+# absolute path when the resource genuinely lives elsewhere.
+# =============================================================================
+
+project_root: null   # null => parent directory of this repository
+
+# -----------------------------------------------------------------------------
+# Inputs
+# -----------------------------------------------------------------------------
+inputs:
+  # The single cell-level input for analyses 01-03.
+  #
+  # THIS IS THE FILE THAT DEFINES THIS RELEASE. It differs from the previous
+  # release (`student_embedding_all_filtered_selected_metadata.h5ad`) in exactly
+  # one respect: the 8,855 human Carnegie-stage-18-23 cells that used to carry
+  # `Org_Celltype == "astroglia"` now carry `"progenitor"`, in both the
+  # `Org_Celltype` and `Celltype` columns. Every other cell, every obs column,
+  # `X`, `obsm/*`, `var` and `uns` are byte-identical to the previous file.
+  #
+  # The relabelling is not a judgement call made here: those cells are 100%
+  # `progenitor` and 0% `astrocyte` on the atlas's own maturation axis, so
+  # leaving them inside a family label defined as
+  # "astroglia (progenitors+astrocytes)" put progenitors and mature astrocytes
+  # into one category. See docs/DATA.md for the provenance of the edit.
+  h5ad: data/integrated_cells.h5ad
+
+  # Model-ranked peaks per developmental period, per species. These are model
+  # OUTPUTS produced upstream (EvoFormer) and are consumed as-is; this
+  # repository never regenerates them.
+  #   <file> = <peak_id>,<score>   peak_id like "hg38_chr14:21269435-21269935"
+  stage_peak_ranked_dir: data/stage_split_h5ad/peak_ranked
+
+  # Model-ranked peaks per cell type (only Purkinje and oligodendrocyte exist).
+  celltype_peak_ranked_dir: data/peak_ranked/purkinje_oligo
+
+  # Raw per-period peak matrices, used by the chromVAR arm of analysis 04.
+  #   full/   the complete peak universe of each species
+  # the v2 period definition; the directory was renamed from
+  # stage_split_h5ad_v2 to stage_split_h5ad
+  stage_split_dir: data/stage_split_h5ad
+
+  # Whole-species peak matrices (raw accessibility) used to build pseudobulks.
+  all_species_h5ad_dir: data/all_species_h5ad
+
+  # Analysis-04 sequence/motif resources.
+  genome_dir: data/genome
+  motif_db: data/motifs/JASPAR2024_CORE_vertebrates_non-redundant_pfms_meme.txt
+
+
+# -----------------------------------------------------------------------------
+# Outputs
+# -----------------------------------------------------------------------------
+outputs:
+  results_root: results
+  logs_root: logs
+
+# -----------------------------------------------------------------------------
+# Analysis parameters
+# -----------------------------------------------------------------------------
+# Every number that a reader would need in order to reproduce a figure lives
+# here rather than in the source.
+analysis:
+  # minimum cells for a (species, sample, stage, celltype) group to be treated
+  # as one observation. Cells are NEVER the unit of inference.
+  min_cells_per_sample: 20
+  # minimum samples / stages for a (celltype, species) direction to be estimable
+  min_samples_for_direction: 3
+  min_stages_for_direction: 2
+  # minimum stages on each axis before a DTW correspondence is reported. With
+  # fewer, an unconstrained DTW reaches the last cell by walking every column of
+  # the target and the "correspondence" is an artefact of the matrix being short.
+  min_stages_for_dtw: 3
+  # permutation test
+  permutations: 1000
+  seed: 42
+
+  # The astroglia cell-type label AFTER the relabelling. human Carnegie stages
+  # 18-23 contribute zero cells to this class, which is the point of the edit.
+  astroglia_label: "astroglia (progenitors+astrocytes)"
+  # The class that human Carnegie stages 18-23 now contribute to.
+  progenitor_label: "progenitor"
+  # Cell types drawn as small multiples in analysis 03.
+  focus_celltypes:
+    - "astroglia (progenitors+astrocytes)"
+    - "immune"
+    - "granule cell (GC)"
+  # Cell types the peak-regulatory arm models explicitly.
+  model_celltypes:
+    astroglia: "astroglia (progenitors+astrocytes)"
+    Purkinje: "Purkinje"
+    Oligo: "oligodendrocyte"
+
+  # Top-K cut-offs for the model-ranked peak arms of analysis 04. 500 is the
+  # primary arm; 1000 and 2000 are robustness arms.
+  primary_topk: 500
+  robustness_topk: [1000, 2000]
+
+  # Peak-regulatory figures / statistics
+  fimo_pvalue_threshold: 1.0e-4
+  chromvar_min_peaks: 10
+
+runtime:
+  # set to null to let the scheduler decide
+  workers: 6
+  # threads for numpy / numba inside a worker
+  threads_per_worker: 8

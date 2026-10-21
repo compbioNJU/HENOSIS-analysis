@@ -1,0 +1,11 @@
+species	rank_period	cross_window	raw_h5ad	raw_stages	note
+human	CS18-19_CS20_CS22-23	early_embryonic	human_CS18-19_CS20_CS22-23_deepcerevo_2026.h5ad	CS18-19|CS20|CS22-23	human Carnegie stage 18-23; its own period so that "prenatal" means the same window in all three species; excluded from every cross-species comparison
+human	15-17wpc_11wpc	prenatal	human_11wpc_15-17wpc_deepcerevo_2026.h5ad	11wpc|15-17wpc	human prenatal, comparable to marmoset GD70-82 and mouse E10-E17
+human	newborn_toddler_infant	postnatal	human_newborn_infant_toddler_deepcerevo_2026.h5ad	newborn|infant|toddler	human postnatal broad; the adult sample is excluded and moved to the adult window
+human	adult_DN_adult	adult	human_adult_adult_DN_deepcerevo_2026.h5ad	adult|adult_DN	merges cerebellar cortex and deep nuclei; the dissection region is preserved per cell in obs['Dissection_region']
+marmoset	GD70-72_GD73_GD76_GD80_GD82	prenatal	marmoset_GD70_GD72_GD73_GD76_GD80_GD82_deepcerevo_2026.h5ad	GD70|GD72|GD73|GD76|GD80|GD82	marmoset prenatal; GD80 retained unchanged
+marmoset	P0_P60	postnatal	marmoset_P1_P2_P60_deepcerevo_2026.h5ad	P1|P2|P60	P60 moved here from the v1 adult window; it is juvenile, not adult
+marmoset	adult	adult	marmoset_adult_deepcerevo_2026.h5ad	adult	true adult marmoset only
+mouse	E10_E11_E12_E13_E15_E17	prenatal	mouse_E10_E11_E12_E13_E15_E17_deepcerevo_2026.h5ad	E10|E11|E12|E13|E15|E17	mouse embryonic E10-E17
+mouse	P4_P0_P7_P14	postnatal	mouse_P0_P4_P7_P14_deepcerevo_2026.h5ad	P0|P4|P7|P14	P63 moved out to the adult window
+mouse	P63_DN_P63	adult	mouse_P63_P63_DN_deepcerevo_2026.h5ad	P63|P63_DN	merges cerebellar cortex and deep nuclei; the dissection region is preserved per cell in obs['Dissection_region']

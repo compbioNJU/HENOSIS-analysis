@@ -1,0 +1,9 @@
+umap_15s: Figure3/heart_integrated.h5ad
+umap_supervised: Figure3/heart_supervised.h5ad
+xmot: Figure3/heart_integrated.h5ad
+ranked_root: Figure3/ranked_genes
+expression_evidence: Figure3/expression_evidence.parquet
+pairwise_ages: Figure3/timetree_pair_ages.csv
+orthology_root: Figure3/orthology
+raw_root: Figure3/raw_expression
+raw_fallback_root: Figure3/raw_expression

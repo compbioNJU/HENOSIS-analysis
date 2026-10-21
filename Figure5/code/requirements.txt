@@ -1,0 +1,39 @@
+# Python dependencies.
+#
+# Pinned to the environment these results were produced in. The versions are not
+# load-bearing for the statistics -- nothing here depends on a numerical detail
+# that changed between releases -- but they ARE load-bearing for the figures,
+# and pinning them is the only way a reader reproduces a plot rather than merely
+# a number.
+#
+#   conda create -n scatac-science python=3.11 --file requirements.txt
+#
+# Reference environment: conda env `rapids_celltypist`, Python 3.11.13.
+
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.16.1
+scikit-learn==1.7.1
+statsmodels==0.14.5
+
+# reading the atlas
+anndata==0.12.2
+h5py==3.14.0
+
+# figures
+matplotlib==3.10.5
+seaborn==0.13.2
+
+# `pymupdf` is used only to verify that every written PDF keeps extractable
+# text (see src/common/plotting.py:verify_pdf_text). It is not needed to produce
+# the figures, but then the text-editability requirement goes unchecked, so it is
+# a dependency rather than an optional extra.
+pymupdf==1.28.2
+
+# `pyyaml` is imported as `yaml`
+pyyaml==6.0.2
+
+# `scanpy` / `numba` are pulled in by the vendored peak-regulatory core's
+# environment; analyses 01-03 do not import them.
+scanpy==1.11.4
+numba==0.61.2

@@ -1,0 +1,210 @@
+# ============================================================================
+# FROZEN FOR v3. DO NOT EDIT AFTER v3 EXECUTION.
+# ============================================================================
+# This file is a one-time, byte-faithful freeze of config/analysis_v2.yaml taken
+# on 2026-09-15, so that the v3 pipeline never reads a v2 file at run time.
+#
+#   source            : config/analysis_v2.yaml
+#   source sha256     : 3c7edf1f5cb6a3acef9b75ff2f71ec8049559a82c3dbfe57262a9a81866455ae
+#   body below        : identical bytes, verbatim
+#
+# Everything the v3 arms change is applied by script_v3/make_v3_configs.py on
+# top of THIS file (never on top of analysis_v2.yaml). `--check` re-derives the
+# four arm configs and asserts the diff against this base is exactly the
+# declared key set.
+#
+# v3 scientific design frozen here:
+#   * Top500 is the PRIMARY arm; Top1000 / Top2000 are prespecified ROBUSTNESS
+#     arms. The claim rule and the cross-K stability rules live in the
+#     `cross_arm` block that make_v3_configs.py APPENDS to each generated arm
+#     config; this body itself stays byte-faithful to analysis_v2.yaml. They are
+#     frozen BEFORE any v3 result was produced.
+#   * the matched-random null is exact-K: a repeat that cannot place exactly
+#     `random_control.n_peaks` peaks on BOTH sides of the Fisher table is
+#     INVALID and does not enter the null. A model whose valid repeats fall
+#     below `min_valid_repeats` is reported NULL_UNDERPOWERED -- never rescued
+#     by a smaller control.
+# ============================================================================
+
+# v2 analysis definition.
+#
+# v2 differs from v1 in exactly three ways, all of them decided before any
+# result was looked at:
+#
+#   1. the period definitions are the developmental ones of
+#      data/stage_split_h5ad (early_embryonic / prenatal / postnatal /
+#      adult), so the cross-species windows are prenatal, postnatal and adult,
+#      and human Carnegie stage 18-23 is its own human-only period instead of
+#      being excluded from a window it biologically belongs to;
+#   2. the Astroglia rankings are regenerated for those periods
+#      (`data/stage_split_h5ad/peak_ranked`), while the Purkinje and Oligo
+#      rankings are unchanged (`data/peak_ranked/purkinje_oligo`);
+#   3. a species enters a cell-type analysis only if it has at least
+#      `min_cells_per_species` cells of that type. This removes bonobo from the
+#      Purkinje analysis (4 cells); every other species/celltype pair is far
+#      above the floor.
+#
+# Everything else -- seed, Top500, the 879 JASPAR motifs, the GC/length matched
+# background, the 200-repeat matched random control, the TF-family map and the
+# FDR -- is byte-identical to v1 so that v1 and v2 are comparable.
+
+seed: 42
+
+paths:
+  data: data
+  results: results_v2
+  cache: cache
+  logs: logs
+  # v2 reads the developmental period table; v1 stays on config/stage_map.tsv
+  stage_map: config/stage_map_v2.tsv
+  # where the ranked model outputs live
+  ranked_dirs:
+    astroglia: data/stage_split_h5ad/peak_ranked
+    purkinje_oligo: data/peak_ranked/purkinje_oligo
+  # what s03 audits its cell->period assignment against (v2 full-peak split)
+  stage_split_dir: data/stage_split_h5ad/full
+
+motif_database:
+  file: data/motifs/JASPAR2024_CORE_vertebrates_non-redundant_pfms_meme.txt
+  n_motifs: 879
+  fimo_threshold: 1.0e-4
+
+model_analysis:
+  primary_topk: 500
+  sensitivity_topk: [250, 1000]
+  background:
+    gc_matched: true
+    length_matched: true
+    gc_caliper: 0.03
+    source: same_model_non_topk
+  fdr: 0.05
+  min_background_pairs: 100
+
+# A species enters a cell-type analysis only if BOTH hold. The cell floor removes
+# a population that cannot support a pseudobulk profile; the peak floor removes a
+# ranking too short to define a Top500 foreground at all.
+eligibility:
+  min_target_cells: 100
+  min_ranked_peaks: 500
+  celltype_column: Org_Celltype
+
+# Cell-type-specific motif modules. This is an INTERPRETATION layer: it names
+# what the unbiased 879-motif analysis found and never decides a primary PASS or
+# FAIL. Modules are atomic and disjoint within a cell type; the joint
+# homeodomain read-out is declared here as a derived union of two of them.
+modules:
+  file: config/celltype_motif_module_map.tsv
+  aggregates:
+    Purkinje:
+      Homeodomain_total: [Homeodomain_nonPOU, POU]
+  # modules at this level are never allowed into a PASS/FAIL rule
+  non_gating_levels: [secondary, comparator]
+
+random_control:
+  n_repeats: 200
+  n_peaks: 500
+  matched: true
+  pool: same_model_non_topk
+  min_peaks_per_repeat: 250
+
+chromvar:
+  peak_universe: all_qc_peaks
+  seed: 42
+  pseudobulk: true
+  pseudobulk_unit: [sample, stage, celltype]
+  min_cells_per_pseudobulk: 30
+  min_cells_per_celltype: 30
+  count_layer: X
+
+statistics:
+  fdr_method: fdr_bh
+  similarity: spearman
+  permutation: exact
+  min_cells_per_group: 30
+
+# readme section 310, unchanged: the only sensitivity arm is Top250 / Top1000
+sensitivity:
+  topk: [250, 1000]
+
+# Transition figures: how a model peak ranking turns into a motif program.
+rank_curve:
+  cutoffs: [100, 250, 500, 1000, 2000]
+  n_repeats: 200          # matched-random draws per cutoff for the null band
+  band: [2.5, 97.5]       # a 95% band, two-sided
+  families: [RFX, NFI, NF-Y, SOX]
+  # families summarised by the median over their monomeric members, matching
+  # every other family statistic in this project
+  aggregate: median_monomer
+
+peak_incidence:
+  top_n: [100, 200]       # rows of the peak x family incidence heatmap
+  families_primary: [RFX, NFI, NF-Y, SOX]
+  include_secondary: true
+
+motif_forest:
+  motifs: [RFX1, RFX2, RFX3, RFX5, NFYA, NFYB, NFYC, NFIA, NFIB, NFIC, NFIX,
+           SOX2, SOX4, SOX6, SOX11]
+
+sequence_maps:
+  n_peaks_per_window: 3   # representative top-ranked peaks drawn per period
+  max_hits_per_peak: 6
+
+plotting:
+  dpi: 200
+  formats: [png, pdf]
+
+# Science-guided anchor motifs for the Oligo supplementary analysis.
+#
+# These are the regulators the source paper's cerebellar GRN names for the
+# oligodendrocyte lineage, frozen BEFORE this analysis runs so that no anchor is
+# added or dropped after seeing a result. Resolution rules, also frozen:
+#
+#   * matching is case-insensitive EXACT on the catalog motif name;
+#   * a requested name that matches MORE THAN ONE catalog matrix contributes
+#     every match, each reported on its own row and flagged. Picking the
+#     measurable one would be selecting a matrix on the outcome;
+#   * a requested name that matches nothing is recorded as absent and is never
+#     substituted by a similar motif;
+#   * a matrix that matches no peak at the frozen FIMO threshold is marked
+#     unmeasurable; its scores are absent, not zero, and it is excluded from any
+#     per-anchor aggregate.
+oligo_science_anchors:
+  SOX:  [SOX6, SOX8, SOX10]
+  OLIG: [OLIG1, OLIG2, OLIG3]
+  NKX:  [NKX2-2, NKX6-2]
+  POU3: [POU3F3, POU3F4]
+  null_repeats: 200
+  fdr: 0.05
+
+# The modules ELIGIBLE to be an O3 candidate for the Oligo arm, frozen here as an
+# explicit list of module names.
+#
+# WHAT IT REPLACES. Eligibility used to be undeclared: it was whatever
+# `common.module_is_gating(config, level)` returned, applied at
+# script/s08_oligo_model.py:1316-1317 as `flagged(recurrence, "gating")` -- i.e.
+# "this module's level is not in modules.non_gating_levels". That made the module
+# map's `level` column, an INTERPRETATION-layer field, decide which modules could
+# be written to results_v2/08_oligo_model/recurrent_families.tsv -- the file
+# script/s09_oligo_raw_validation.py reads to build the O3 candidate set.
+# Re-levelling the Oligo SOX module to `secondary` would have emptied that file,
+# turned o3_evaluated False and moved the Oligo claim to PENDING, contradicting the
+# module-map invariance recorded in results_v2/final/RUN_MANIFEST.json. This list
+# closes that channel: membership here never consults `level`.
+#
+# WHY IT IS NOT modules.non_gating_levels. That key says how the module layer is
+# READ (which levels are allowed to gate an interpretation gate). This list is an
+# INPUT to the analysis (which modules the Oligo arm may evaluate at all). They
+# answer different questions, so they are kept as two fields that cannot set one
+# another: this list is neither derived from `level` nor a copy of it.
+#
+# WHAT IT REPRODUCES. Exactly the set the old gating filter admitted on the frozen
+# map: the two Oligo `primary` modules SOX and bHLH_Ebox. The recurrence rule
+# applied immediately afterwards (s08:1317 onward) is untouched and still decides
+# which eligible module reaches recurrent_families.tsv; bHLH_Ebox is eligible but
+# does not clear it, so that file is unchanged byte for byte (SOX, one row).
+#
+# An EMPTY list is a real value -- no module is eligible and gate O2 can only FAIL
+# -- and is NOT a fallback to `level`. Only a config that omits the key entirely
+# (the v1 config, which never declared it) keeps the legacy level-based filter, so
+# v1 does not move.
+oligo_o3_candidate_modules: [SOX, bHLH_Ebox]

@@ -1,0 +1,61 @@
+# Frozen analysis definition.
+# Everything in this file is fixed BEFORE looking at results and must not be
+# tuned afterwards (readme section 5).
+
+seed: 42
+
+paths:
+  data: data
+  results: results
+  cache: cache
+  logs: logs
+
+motif_database:
+  file: data/motifs/JASPAR2024_CORE_vertebrates_non-redundant_pfms_meme.txt
+  n_motifs: 879
+  # FIMO site p-value threshold. Held identical to the frozen preliminary
+  # analysis so that model-derived motif scores are comparable across runs.
+  fimo_threshold: 1.0e-4
+
+model_analysis:
+  primary_topk: 500
+  sensitivity_topk: [250, 1000]
+  background:
+    gc_matched: true
+    length_matched: true
+    gc_caliper: 0.03
+    source: same_model_non_topk      # background is drawn from the same ranked
+                                     # 10k universe, excluding the Top-k peaks
+  fdr: 0.05
+  min_background_pairs: 100          # below this a model is flagged, not rescued
+
+random_control:
+  n_repeats: 200
+  n_peaks: 500
+  matched: true                      # every random draw is GC/length matched to
+                                     # the observed Top500 distribution
+  pool: same_model_non_topk          # drawn from ranks 501..10000
+  min_peaks_per_repeat: 250          # a repeat that cannot place this many
+                                     # matched peaks on BOTH sides is dropped
+                                     # and counted, never padded
+
+chromvar:
+  peak_universe: all_qc_peaks        # every peak of the species h5ad
+  seed: 42
+  pseudobulk: true
+  pseudobulk_unit: [sample, stage, celltype]
+  min_cells_per_pseudobulk: 30
+  # only celltypes with at least this many cells overall are used as
+  # "other celltypes" in the equal-weighted background
+  min_cells_per_celltype: 30
+  count_layer: X                     # adata.X holds raw integer peak counts
+
+statistics:
+  fdr_method: fdr_bh
+  similarity: spearman
+  permutation: exact                  # 3! x 3! for the astroglia stage test
+  min_cells_per_group: 30
+
+plotting:
+  dpi: 200
+  formats: [png, pdf]

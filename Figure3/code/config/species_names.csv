@@ -1,0 +1,16 @@
+species_id,full_name,short_name,display_order
+Drosophila_melanogaster,Drosophila melanogaster,D. melanogaster,1
+Mizuhopecten_yessoensis,Mizuhopecten yessoensis,M. yessoensis,2
+Lissachatina_fulica,Lissachatina fulica,L. fulica,3
+Amphioctopus_fangsiao,Amphioctopus fangsiao,A. fangsiao,4
+Branchiostoma_japonicum,Branchiostoma japonicum,B. japonicum,5
+Ciona_robusta,Ciona robusta,C. robusta,6
+Chiloscyllium_plagiosum,Chiloscyllium plagiosum,C. plagiosum,7
+Danio_rerio,Danio rerio,D. rerio,8
+Protopterus_annectens,Protopterus annectens,P. annectens,9
+Ambystoma_mexicanum,Ambystoma mexicanum,A. mexicanum,10
+Xenopus_laevis,Xenopus laevis,X. laevis,11
+Trachemys_scripta_elegans,Trachemys scripta elegans,T. s. elegans,12
+Taeniopygia_guttata,Taeniopygia guttata,T. guttata,13
+Mus_musculus,Mus musculus,M. musculus,14
+Homo_sapiens,Homo sapiens,H. sapiens,15

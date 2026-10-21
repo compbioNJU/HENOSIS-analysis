@@ -1,0 +1,285 @@
+celltype	module	level	member_type	motif_name	motif_id	provenance
+Astroglia	SOX	primary	monomer	SOX2	MA0143.5	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	SOX4	MA0867.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	SOX8	MA0868.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	SOX9	MA0077.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	SOX10	MA0442.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	SOX12	MA1561.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	SOX13	MA1120.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	SOX14	MA1562.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	SOX15	MA1152.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	SOX18	MA1563.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	SOX21	MA0866.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	Sox1	MA0870.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	Sox3	MA0514.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	Sox5	MA0087.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	Sox6	MA0515.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	Sox7	MA2095.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	Sox11	MA0869.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	SOX	primary	monomer	Sox17	MA0078.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NFI	primary	monomer	NFIA	MA0670.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NFI	primary	monomer	NFIB	MA1643.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NFI	primary	monomer	NFIC	MA0161.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NFI	primary	monomer	NFIC	MA1527.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NFI	primary	monomer	NFIX	MA0671.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NFI	primary	monomer	NFIX	MA1528.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NFI	primary	heterodimer	NFIC::TLX1	MA0119.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	RFX	primary	monomer	RFX1	MA0509.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Astroglia	RFX	primary	monomer	RFX2	MA0600.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Astroglia	RFX	primary	monomer	RFX3	MA0798.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Astroglia	RFX	primary	monomer	RFX4	MA0799.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Astroglia	RFX	primary	monomer	RFX5	MA0510.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Astroglia	RFX	primary	monomer	RFX7	MA1554.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Astroglia	RFX	primary	monomer	Rfx6	MA1724.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Astroglia	NF-Y	primary	monomer	NFYA	MA0060.4	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Astroglia	NF-Y	primary	monomer	NFYB	MA0502.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Astroglia	NF-Y	primary	monomer	NFYC	MA1644.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Astroglia	NuclearReceptor	secondary	monomer	Ar	MA0007.4	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	ESR1	MA0112.4	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	ESR2	MA0258.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	ESRRA	MA0592.4	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	ESRRB	MA0141.4	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Esrrg	MA0643.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	HNF4A	MA1494.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	HNF4A	MA0114.5	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	HNF4G	MA0484.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR1D1	MA1531.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR1D2	MA1532.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR1I2	MA1533.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR1I3	MA1534.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR2C1	MA1535.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR2C2	MA0504.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR2C2	MA1536.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR2F1	MA1538.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR2F1	MA0017.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR2F1	MA1537.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR2F2	MA1111.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR2F6	MA1539.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Nr2F6	MA0728.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Nr2f6	MA0677.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Nr2e1	MA0676.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Nr2e3	MA0164.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR3C1	MA0113.4	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR3C2	MA0727.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR4A1	MA1112.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR4A2	MA0160.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR5A1	MA1540.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Nr5A2	MA0505.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	NR6A1	MA1541.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Nr1H2	MA1996.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Nr1h3	MA2337.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Nr1H4	MA1110.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	PGR	MA2327.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Pgr	MA2323.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	PPARD	MA1550.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	PPARG	MA0066.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Ppara	MA2338.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RARA	MA0729.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RARA	MA0730.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RARB	MA1552.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RARG	MA1553.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Rarb	MA0857.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Rarb	MA0858.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Rarg	MA0860.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Rarg	MA0859.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RORA	MA0071.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RORA	MA0072.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RORB	MA1150.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RORC	MA1151.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RXRB	MA0855.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RXRB	MA1555.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RXRG	MA0856.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	RXRG	MA1556.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Rxra	MA0512.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	THRA	MA1969.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	THRB	MA1574.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	THRB	MA1575.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	THRB	MA1576.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	monomer	Vdr	MA0693.4	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	heterodimer	NR1H4::RXRA	MA1146.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	heterodimer	NR4A2::RXRA	MA1147.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	heterodimer	Nr1h3::Rxra	MA0494.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	heterodimer	PPARA::RXRA	MA1148.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	heterodimer	Pparg::Rxra	MA0065.3	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	heterodimer	RARA::RXRA	MA0159.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	heterodimer	RARA::RXRG	MA1149.2	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Astroglia	NuclearReceptor	secondary	heterodimer	RXRA::VDR	MA0074.1	Sarropoulos 2025 astroglia-associated GRN (SOX2/HES1, RFX, NR3C2/AR); RFX and NF-Y are additionally empirical 
+Purkinje	Homeodomain_nonPOU	primary	monomer	Alx1	MA0854.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Alx4	MA0853.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Arx	MA0874.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	CUX1	MA0754.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	CUX2	MA0755.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	DLX1	MA0879.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	DLX6	MA0882.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Dlx2	MA0885.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Dlx3	MA0880.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Dlx4	MA0881.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Dlx5	MA1476.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HESX1	MA0894.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HMBOX1	MA0895.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Hmx1	MA0896.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Hmx2	MA0897.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Hmx3	MA0898.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXA1	MA1495.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXA2	MA0900.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXA3	MA2119.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXA4	MA1496.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXA5	MA0158.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXA6	MA1497.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXA7	MA1498.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXA9	MA0594.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXA10	MA0899.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXB1	MA2093.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXB2	MA0902.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXB3	MA0903.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXB4	MA1499.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXB5	MA0904.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXB6	MA1500.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXB7	MA1501.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXB8	MA1502.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXB9	MA1503.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXB13	MA0901.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXC4	MA1504.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXC8	MA1505.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXC9	MA0485.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXC10	MA0905.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXC11	MA0651.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXC12	MA0906.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXC13	MA0907.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXD3	MA0912.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXD4	MA1507.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXD8	MA0910.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXD9	MA0913.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXD10	MA1506.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXD11	MA0908.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	HOXD12	MA0873.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Hoxa11	MA0911.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Hoxa13	MA0650.4	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Hoxd13	MA0909.4	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	ISL2	MA0914.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	LHX2	MA0700.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	LHX5	MA1519.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	LHX6	MA0658.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	LHX9	MA0701.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Lhx1	MA1518.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Lhx3	MA0135.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Lhx4	MA0704.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Lhx8	MA0705.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Msx3	MA0709.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	ONECUT1	MA0679.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	ONECUT2	MA0756.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	ONECUT3	MA0757.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Pax7	MA0680.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	SIX1	MA1118.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	SIX2	MA1119.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Six3	MA0631.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	Six4	MA2001.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	TGIF1	MA0796.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	TGIF2	MA0797.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	TGIF2LX	MA1571.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	monomer	TGIF2LY	MA1572.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	heterodimer	HOXB2::ELK1	MA1957.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	Homeodomain_nonPOU	primary	heterodimer	HOXD12::ELK1	MA1958.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU1F1	MA0784.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU2F1	MA0785.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU2F2	MA0507.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU2F3	MA0627.3	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU3F1	MA0786.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU3F2	MA0787.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU3F3	MA0788.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU3F4	MA0789.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU4F1	MA0790.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU4F2	MA0683.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU4F3	MA0791.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU5F1	MA1115.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU5F1B	MA0792.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU6F1	MA0628.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU6F1	MA1549.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	monomer	POU6F2	MA0793.2	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	POU	primary	heterodimer	POU2F1::SOX2	MA1962.1	Sarropoulos 2025 cerebellar GRN: homeodomain motifs remain important throughout Purkinje differentiation
+Purkinje	TFAP2	primary	monomer	TFAP2A	MA0872.1	Sarropoulos 2025: TFAP2A is associated with differentiating rather than mature Purkinje cells
+Purkinje	TFAP2	primary	monomer	TFAP2A	MA0810.2	Sarropoulos 2025: TFAP2A is associated with differentiating rather than mature Purkinje cells
+Purkinje	TFAP2	primary	monomer	TFAP2A	MA0003.5	Sarropoulos 2025: TFAP2A is associated with differentiating rather than mature Purkinje cells
+Purkinje	TFAP2	primary	monomer	TFAP2B	MA0813.1	Sarropoulos 2025: TFAP2A is associated with differentiating rather than mature Purkinje cells
+Purkinje	TFAP2	primary	monomer	TFAP2B	MA0811.2	Sarropoulos 2025: TFAP2A is associated with differentiating rather than mature Purkinje cells
+Purkinje	TFAP2	primary	monomer	TFAP2B	MA0812.2	Sarropoulos 2025: TFAP2A is associated with differentiating rather than mature Purkinje cells
+Purkinje	TFAP2	primary	monomer	TFAP2C	MA0815.1	Sarropoulos 2025: TFAP2A is associated with differentiating rather than mature Purkinje cells
+Purkinje	TFAP2	primary	monomer	TFAP2C	MA0524.3	Sarropoulos 2025: TFAP2A is associated with differentiating rather than mature Purkinje cells
+Purkinje	TFAP2	primary	monomer	TFAP2C	MA0814.3	Sarropoulos 2025: TFAP2A is associated with differentiating rather than mature Purkinje cells
+Purkinje	TFAP2	primary	monomer	TFAP2E	MA1569.2	Sarropoulos 2025: TFAP2A is associated with differentiating rather than mature Purkinje cells
+Purkinje	NF-Y	secondary	monomer	NFYA	MA0060.4	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Purkinje	NF-Y	secondary	monomer	NFYB	MA0502.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Purkinje	NF-Y	secondary	monomer	NFYC	MA1644.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Purkinje	RFX	secondary	monomer	RFX1	MA0509.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Purkinje	RFX	secondary	monomer	RFX2	MA0600.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Purkinje	RFX	secondary	monomer	RFX3	MA0798.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Purkinje	RFX	secondary	monomer	RFX4	MA0799.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Purkinje	RFX	secondary	monomer	RFX5	MA0510.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Purkinje	RFX	secondary	monomer	RFX7	MA1554.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Purkinje	RFX	secondary	monomer	Rfx6	MA1724.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Oligo	SOX	primary	monomer	SOX2	MA0143.5	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	SOX4	MA0867.3	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	SOX8	MA0868.3	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	SOX9	MA0077.2	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	SOX10	MA0442.3	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	SOX12	MA1561.2	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	SOX13	MA1120.2	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	SOX14	MA1562.2	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	SOX15	MA1152.2	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	SOX18	MA1563.2	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	SOX21	MA0866.1	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	Sox1	MA0870.1	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	Sox3	MA0514.3	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	Sox5	MA0087.3	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	Sox6	MA0515.1	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	Sox7	MA2095.1	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	Sox11	MA0869.3	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	SOX	primary	monomer	Sox17	MA0078.3	Sarropoulos 2025 oligo-lineage GRN: SOX6 / SOX8 / SOX10
+Oligo	bHLH_Ebox	primary	monomer	OLIG1	MA0826.1	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	OLIG2	MA0678.1	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	OLIG3	MA0827.1	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	Olig2	MA1997.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	ASCL1	MA1100.3	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	ASCL1	MA1631.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	Ascl2	MA0816.1	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	Atoh1	MA0461.3	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	Atoh1	MA1467.3	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	ATOH7	MA1468.1	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	NEUROD1	MA1109.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	Neurod2	MA1993.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	Neurod2	MA0668.3	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	NEUROG1	MA0623.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	NEUROG2	MA0669.1	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	NEUROG2	MA1642.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	TCF3	MA0522.4	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	TCF4	MA0830.3	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	TCF12	MA1648.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	Tcf12	MA0521.3	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	Tcf21	MA0832.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	BHLHA15	MA0607.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	Bhlha15	MA1472.3	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	BHLHE22	MA0818.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	BHLHE22	MA1635.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	bHLH_Ebox	primary	monomer	BHLHE23	MA0817.2	Sarropoulos 2025: OLIG2 regulates oligodendrocyte lineage formation
+Oligo	NKX	secondary	monomer	NKX2-2	MA1645.2	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	NKX	secondary	monomer	NKX2-3	MA0672.2	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	NKX	secondary	monomer	NKX2-4	MA2003.2	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	NKX	secondary	monomer	NKX2-5	MA0063.3	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	NKX	secondary	monomer	NKX2-8	MA0673.2	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	NKX	secondary	monomer	NKX6-1	MA0674.2	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	NKX	secondary	monomer	NKX6-2	MA0675.2	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	NKX	secondary	monomer	NKX6-3	MA1530.2	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	NKX	secondary	monomer	Nkx2-1	MA1994.2	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	NKX	secondary	monomer	Nkx3-1	MA0124.3	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	NKX	secondary	monomer	Nkx3-2	MA0122.4	Sarropoulos 2025 oligo-lineage GRN: NKX2-2 / NKX6-2
+Oligo	POU3	secondary	monomer	POU3F1	MA0786.2	Sarropoulos 2025 oligo-lineage GRN: POU3F3 / POU3F4
+Oligo	POU3	secondary	monomer	POU3F2	MA0787.1	Sarropoulos 2025 oligo-lineage GRN: POU3F3 / POU3F4
+Oligo	POU3	secondary	monomer	POU3F3	MA0788.1	Sarropoulos 2025 oligo-lineage GRN: POU3F3 / POU3F4
+Oligo	POU3	secondary	monomer	POU3F4	MA0789.1	Sarropoulos 2025 oligo-lineage GRN: POU3F3 / POU3F4
+Oligo	NFI	comparator	monomer	NFIA	MA0670.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Oligo	NFI	comparator	monomer	NFIB	MA1643.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Oligo	NFI	comparator	monomer	NFIC	MA0161.3	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Oligo	NFI	comparator	monomer	NFIC	MA1527.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Oligo	NFI	comparator	monomer	NFIX	MA0671.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Oligo	NFI	comparator	monomer	NFIX	MA1528.2	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
+Oligo	NFI	comparator	heterodimer	NFIC::TLX1	MA0119.1	not a literature prior: recovered as a recurrent module by the unbiased 879-motif analysis itself; reported as empirical, never as a Science claim
