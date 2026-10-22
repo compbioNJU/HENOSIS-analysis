@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".logo.png" alt="Henosis" width="360">
+  <img src="Figure1\logo.png" alt="Henosis" width="360">
 </p>
 
 # HENOSIS integrates single-cell data across species and distinct molecular feature spaces
