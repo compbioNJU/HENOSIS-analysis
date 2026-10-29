@@ -18,7 +18,7 @@ from scipy.stats import spearmanr
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from common.io import load_config, write_plot_csv
+from common.io import load_config, write_plot_csv, results_root
 from common.names import SpeciesNames
 from common.embedding import load_embedding
 
@@ -227,7 +227,7 @@ def main():
     eligible = sorted(ct for ct in counts_raw if ct not in {'Others', 'unknown', ''}
                       and (counts_raw[ct] >= MIN_CELLS).sum() >= MIN_SPECIES)
     centers, counts = build_centroids(species, labels, embedding, eligible)
-    out = ROOT / 'results/conservation_landscape'
+    out = results_root(ROOT) / 'conservation_landscape'
     (out / 'tables').mkdir(parents=True, exist_ok=True)
     counts.to_csv(out / 'tables/celltype_species_eligibility.csv', index=False)
     pairs = make_pairs(centers, counts, eligible, names.order)

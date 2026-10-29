@@ -1,0 +1,19 @@
+name: henosis-analysis
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - r-base=4.3.3
+  - r-matrix=1.6_5
+  - bioconductor-biostrings=2.70
+  - bioconductor-s4vectors=0.40
+  - bioconductor-summarizedexperiment=1.32
+  - bioconductor-tfbstools=1.40
+  - bioconductor-chromvar=1.24
+  - bioconductor-motifmatchr=1.24
+  - meme=5.5.9
+  - pip:
+      - -r requirements.txt

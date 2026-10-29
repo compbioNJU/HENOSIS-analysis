@@ -29,3 +29,9 @@ def write_plot_csv(path: Path, frame: pd.DataFrame,
         raise ValueError(f'Plot data missing columns: {sorted(missing)}')
     path.parent.mkdir(parents=True, exist_ok=True)
     frame.to_csv(path, index=False)
+
+
+def results_root(code_root: Path) -> Path:
+    """Use the shared output base when set; preserve direct-script defaults."""
+    override = os.environ.get('ANALYSIS_RESULTS_DIR')
+    return Path(override).expanduser().resolve() / 'Figure3' if override else code_root / 'results'

@@ -18,7 +18,7 @@ from scipy.spatial.distance import squareform
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
-from common.io import load_config, write_plot_csv
+from common.io import load_config, write_plot_csv, results_root
 from common.names import SpeciesNames
 
 matplotlib.rcParams.update({"pdf.fonttype": 42, "ps.fonttype": 42,
@@ -200,7 +200,7 @@ def draw(root: dict, names: SpeciesNames, palette: dict[str, str],
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir", type=Path,
-                        default=ROOT / "results/phylogenetic_tree")
+                        default=results_root(ROOT) / "phylogenetic_tree")
     parser.add_argument("--dpi", type=int, default=300)
     args = parser.parse_args()
     config = load_config(ROOT / "config/inputs.yaml")

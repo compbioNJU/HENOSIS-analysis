@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import re
 from pathlib import Path
 
@@ -28,10 +29,11 @@ CELLTYPE_ORDER = ["ASC", "ChC", "Endo", "L2/3 IT", "L4/5 IT", "L5 ET", "L5/6 NP"
 
 def parse_args():
     here = Path(__file__).resolve().parent
+    data_root = Path(os.environ.get("ANALYSIS_DATA_DIR", here.parents[3] / "analysis_data"))
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--rank-dir", type=Path, default=here.parent / "data/scRNAseq/gene_rank")
+    p.add_argument("--rank-dir", type=Path, default=data_root / "Figure2/microglia/ranked_genes")
     p.add_argument("--h5ad-dir", type=Path,
-                   default=Path("data/figure2/motor"))
+                   default=data_root / "Figure2/microglia")
     p.add_argument("--output-dir", type=Path, default=here / "gene_rank_dotplot_rank10")
     p.add_argument("--top-n", type=int, default=10)
     p.add_argument("--celltype-column", default="Celltype")
@@ -156,9 +158,22 @@ def main():
     if args.top_n < 1: raise ValueError("--top-n must be >= 1")
     args.output_dir.mkdir(parents=True, exist_ok=True)
     report = []
-    for species_dir in sorted(p for p in args.rank_dir.iterdir() if p.is_dir()):
-        species, h5ad_path = species_dir.name, args.h5ad_dir / f"{species_dir.name}.h5ad"
-        if not h5ad_path.exists():
+    if not args.rank_dir.is_dir():
+        raise FileNotFoundError(args.rank_dir)
+    rank_files = sorted(args.rank_dir.glob("*.csv"))
+    if not rank_files:
+        raise FileNotFoundError(f"No ranked-gene CSV files in {args.rank_dir}")
+    species_tasks = {}
+    for csv_path in rank_files:
+        metadata = pd.read_csv(csv_path, nrows=1)
+        if metadata.empty or not {"species", "cell_type"} <= set(metadata.columns):
+            raise ValueError(f"{csv_path}: species/cell_type columns and at least one row are required")
+        species = str(metadata.iloc[0]["species"])
+        target = str(metadata.iloc[0]["cell_type"])
+        species_tasks.setdefault(species, []).append((csv_path, target))
+    for species, tasks in sorted(species_tasks.items()):
+        h5ad_path = args.h5ad_dir / f"{species}.h5ad"
+        if not h5ad_path.is_file():
             raise FileNotFoundError(h5ad_path)
         adata = ad.read_h5ad(h5ad_path, backed="r")
         try:
@@ -166,8 +181,7 @@ def main():
             if "counts" not in adata.layers: raise ValueError(f"{h5ad_path}: missing counts layer")
             outdir = args.output_dir / species
             outdir.mkdir(parents=True, exist_ok=True)
-            for csv_path in sorted(species_dir.glob("*.csv")):
-                target = csv_path.stem
+            for csv_path, target in tasks:
                 markers = load_markers(csv_path, args.top_n)
                 resolved, indices = resolve_genes(markers, adata.var_names)
                 matched_n = int(resolved.match_status.isin(["exact", "case_insensitive"]).sum())

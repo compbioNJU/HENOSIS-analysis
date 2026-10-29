@@ -16,6 +16,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
+from common.io import results_root
 from common.names import SpeciesNames
 
 matplotlib.rcParams.update({'pdf.fonttype': 42, 'ps.fonttype': 42,
@@ -96,9 +97,9 @@ def draw(frame: pd.DataFrame, names: SpeciesNames, stem: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source-dir', type=Path,
-                        default=ROOT / 'results/expression_examples/species')
+                        default=results_root(ROOT) / 'expression_examples/species')
     parser.add_argument('--out-dir', type=Path,
-                        default=ROOT / 'results/expression_examples/four_species_cardiomyocyte')
+                        default=results_root(ROOT) / 'expression_examples/four_species_cardiomyocyte')
     args = parser.parse_args()
     frame = load_selected(args.source_dir)
     names = SpeciesNames.from_csv(ROOT / 'config/species_names.csv')

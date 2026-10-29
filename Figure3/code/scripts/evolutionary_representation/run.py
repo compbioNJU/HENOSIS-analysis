@@ -14,7 +14,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from common.io import load_config, write_plot_csv
+from common.io import load_config, write_plot_csv, results_root
 from common.names import SpeciesNames
 from conservation.run import build_centroids, cosine, VERTEBRATES
 from common.embedding import load_embedding
@@ -171,7 +171,7 @@ def draw_spectrum(spectrum, contrast, out):
 def main():
     names = SpeciesNames.from_csv(ROOT / 'config/species_names.csv')
     config = load_config(ROOT / 'config/inputs.yaml')
-    landscape = ROOT / 'results/conservation_landscape/tables'
+    landscape = results_root(ROOT) / 'conservation_landscape/tables'
     celltype_pairs = pd.read_csv(landscape / 'celltype_species_pair_similarity.csv')
     eligibility = pd.read_csv(landscape / 'celltype_species_eligibility.csv')
     pair = aggregate_pairs(celltype_pairs)
@@ -195,7 +195,7 @@ def main():
         n_species_pairs=('contrast', 'size'))
     spectrum['n_species'] = spectrum.celltype.map(
         eligibility[eligibility.eligible].groupby('celltype').size())
-    out = ROOT / 'results/evolutionary_representation'
+    out = results_root(ROOT) / 'evolutionary_representation'
     draw_all_cell(pair, names, out)
     draw_pair_contrast(pair, group, out)
     draw_spectrum(spectrum, contrast, out)

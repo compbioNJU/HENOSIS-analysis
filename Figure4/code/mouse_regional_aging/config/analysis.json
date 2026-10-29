@@ -1,0 +1,35 @@
+{
+  "seed": 20261027,
+  "lineages": [
+    "Oligodendrocyte",
+    "Microglia"
+  ],
+  "glial_lineages": [
+    "Oligodendrocyte",
+    "Microglia"
+  ],
+  "embedding": "X_pca_harmony",
+  "dimensions": 25,
+  "reference_quantile": 0.9,
+  "regions": [
+    "CC/ACO",
+    "STR",
+    "CTX"
+  ],
+  "minimum_cells_per_mouse_region": 30,
+  "fixed_lineage_sample_cap": 500,
+  "fixed_region_sample_cap": 300,
+  "permutations": 9999,
+  "permutation_workers": 4,
+  "regional_interaction_family": "two exploratory CC/ACO minus CTX older-minus-young contrasts",
+  "plot_h_colors": {
+    "CC/ACO": "#c65b40",
+    "STR": "#cba247",
+    "CTX": "#427fa4"
+  },
+  "plot_i_colors": {
+    "Oligodendrocyte": "#287ba6",
+    "Microglia": "#d47b36"
+  },
+  "trajectory_definition": "connections between age-group means only; not individual longitudinal trajectories"
+}

@@ -16,6 +16,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
+from common.io import results_root
 from common.names import SpeciesNames
 
 matplotlib.rcParams.update({'pdf.fonttype': 42, 'ps.fonttype': 42,
@@ -99,9 +100,9 @@ def make_figure(frame: pd.DataFrame, names: SpeciesNames, celltype: str) -> plt.
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source-dir', type=Path,
-                        default=ROOT / 'results/expression_examples/species')
+                        default=results_root(ROOT) / 'expression_examples/species')
     parser.add_argument('--out-dir', type=Path,
-                        default=ROOT / 'results/expression_examples/all_species_by_celltype')
+                        default=results_root(ROOT) / 'expression_examples/all_species_by_celltype')
     args = parser.parse_args()
     names = SpeciesNames.from_csv(ROOT / 'config/species_names.csv')
     args.out_dir.mkdir(parents=True, exist_ok=True)

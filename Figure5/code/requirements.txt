@@ -6,7 +6,7 @@
 # and pinning them is the only way a reader reproduces a plot rather than merely
 # a number.
 #
-#   conda create -n scatac-science python=3.11 --file requirements.txt
+#   python -m pip install -r requirements.txt
 #
 # Reference environment: conda env `rapids_celltypist`, Python 3.11.13.
 

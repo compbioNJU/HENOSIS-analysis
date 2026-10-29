@@ -100,9 +100,13 @@ class Config:
         them into the data tree, where a later run of a different analysis would
         find and overwrite them.
         """
+        if os.environ.get("ANALYSIS_RESULTS_DIR"):
+            return Path(os.environ["ANALYSIS_RESULTS_DIR"]).expanduser().resolve() / "Figure5"
         return self._resolve(self["outputs"]["results_root"], base=REPO_ROOT)
 
     def logs_root(self) -> Path:
+        if os.environ.get("ANALYSIS_RESULTS_DIR"):
+            return self.output_root() / "logs"
         return self._resolve(self["outputs"]["logs_root"], base=REPO_ROOT)
 
     def result_dir(self, analysis: str) -> Path:

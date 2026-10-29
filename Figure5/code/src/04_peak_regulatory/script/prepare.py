@@ -34,6 +34,8 @@ from __future__ import annotations
 import argparse
 import os
 import shutil
+import subprocess
+import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -118,6 +120,11 @@ def main() -> int:
     reader_view.symlink_to(results)
     print(f"[OK] results: {results}")
     print(f"     reader view: {reader_view}")
+
+    if os.environ.get("ANALYSIS_RESULTS_DIR"):
+        public_view = Path(os.environ["ANALYSIS_RESULTS_DIR"]).expanduser().resolve() / "Figure5" / "04_peak_regulatory"
+        public_view.parent.mkdir(parents=True, exist_ok=True)
+        link(results, public_view, what="regulatory output view")
 
     # 3. the Astroglia ranking set for this release
     #
@@ -208,6 +215,15 @@ def main() -> int:
             path.chmod(path.stat().st_mode | 0o200)
         except OSError:
             pass
+
+    # A source-only release has no generated vendor manifest yet. Freeze the
+    # current packaged code once; never overwrite an existing integrity record.
+    if not (VENDOR / "MANIFEST.json").exists():
+        subprocess.run([
+            sys.executable, str(HERE / "write_provenance.py"),
+            "--h5ad", str(data_root / "integrated_cells.h5ad"),
+            "--data-root", str(data_root),
+        ], check=True)
 
     print(f"\n[DONE] vendored core is runnable:\n"
           f"  vendor/data    -> {data_root}\n"

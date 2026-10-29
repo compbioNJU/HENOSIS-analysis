@@ -20,7 +20,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
-from common.io import load_config, write_plot_csv
+from common.io import load_config, write_plot_csv, results_root
 from common.names import SpeciesNames
 
 matplotlib.rcParams.update({"pdf.fonttype": 42, "ps.fonttype": 42})
@@ -507,7 +507,7 @@ def draw(frame, names, stem):
 def main():
     config = load_config(ROOT / "config/inputs.yaml")
     names = SpeciesNames.from_csv(ROOT / "config/species_names.csv")
-    out = ROOT / "results/orthology_aware_identity_validation"
+    out = results_root(ROOT) / "orthology_aware_identity_validation"
     out.mkdir(parents=True, exist_ok=True)
     ranked = ranked_top100(
         names.order, config["ranked_root"], config["orthology_root"])

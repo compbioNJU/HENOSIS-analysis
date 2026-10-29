@@ -1,0 +1,22 @@
+# Python 3.11; versions observed in the environment used for local panel reruns.
+# pip install -r requirements.txt
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.16.1
+scikit-learn==1.7.1
+statsmodels==0.14.5
+anndata==0.12.2
+h5py==3.14.0
+matplotlib==3.10.5
+seaborn==0.13.2
+scanpy==1.11.4
+numba==0.61.2
+PyYAML==6.0.2
+pyarrow==17.0.0
+openpyxl==3.1.5
+pypdf==6.16.2
+Pillow==11.3.0
+PyMuPDF==1.28.2
+plotly==6.9.0
+# Bundles its rendering engine; the min250 Sankey was rerun with this version.
+kaleido==0.2.1

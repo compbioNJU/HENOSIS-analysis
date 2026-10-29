@@ -14,7 +14,7 @@ from matplotlib.lines import Line2D
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from common.io import load_config, write_plot_csv
+from common.io import load_config, write_plot_csv, results_root
 from common.names import SpeciesNames
 
 matplotlib.rcParams.update({'pdf.fonttype': 42, 'ps.fonttype': 42,
@@ -142,7 +142,7 @@ def main():
     config = load_config(ROOT / 'config' / 'inputs.yaml')
     names = SpeciesNames.from_csv(ROOT / 'config' / 'species_names.csv')
     evidence = pd.read_parquet(config['expression_evidence'])
-    out = ROOT / 'results' / 'expression_examples'
+    out = results_root(ROOT) / 'expression_examples'
     all_panels, selections, summary, traces = {}, [], [], []
     for species in names.order:
         panels = {}

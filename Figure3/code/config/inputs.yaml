@@ -1,5 +1,4 @@
 umap_15s: Figure3/heart_integrated.h5ad
-umap_supervised: Figure3/heart_supervised.h5ad
 xmot: Figure3/heart_integrated.h5ad
 ranked_root: Figure3/ranked_genes
 expression_evidence: Figure3/expression_evidence.parquet

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render retained full-data 15S and supervised UMAPs from mapped h5ad."""
+"""Render the unsupervised full-data 15-species heart UMAPs."""
 
 import argparse
 from pathlib import Path
@@ -18,7 +18,7 @@ import pandas as pd
 PACKAGE = Path(__file__).resolve().parents[1]
 ROOT = PACKAGE.parent
 sys.path.insert(0, str(PACKAGE))
-from common.io import load_config, write_plot_csv  # noqa: E402
+from common.io import load_config, write_plot_csv, results_root  # noqa: E402
 from common.names import SpeciesNames  # noqa: E402
 
 
@@ -121,16 +121,16 @@ def render_umap(input_h5ad, output_dir, names, palettes, condition):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--condition', choices=('15S', '15S_supervised', 'both'), default='both')
+    parser.add_argument('--condition', choices=('15S',), default='15S')
     args = parser.parse_args()
     config = load_config(ROOT / 'config/inputs.yaml')
     names = SpeciesNames.from_csv(ROOT / 'config/species_names.csv')
     palettes = (palette(ROOT / 'config/celltype_colors.csv'),
                 palette(ROOT / 'config/species_colors.csv'))
-    conditions = ('15S', '15S_supervised') if args.condition == 'both' else (args.condition,)
+    conditions = (args.condition,)
     for condition in conditions:
-        key = 'umap_15s' if condition == '15S' else 'umap_supervised'
-        outputs = render_umap(config[key], ROOT / 'results/umap' / condition,
+        key = 'umap_15s'
+        outputs = render_umap(config[key], results_root(ROOT) / 'umap' / condition,
                               names, palettes, condition)
         print(f'{condition}: {len(outputs)} full-data views', flush=True)
 

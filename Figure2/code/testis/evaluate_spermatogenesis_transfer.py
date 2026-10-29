@@ -72,7 +72,9 @@ warnings.filterwarnings("ignore")
 DATA_ROOT = Path(os.environ.get("ANALYSIS_DATA_DIR", Path(__file__).resolve().parents[4] / "analysis_data"))
 H5AD_PATH = str(DATA_ROOT / "Figure2/testis/testis_integrated.h5ad")
 
-SAVE_DIR = str(Path(__file__).resolve().parents[2] / "results/testis_transfer")
+SAVE_DIR = str(Path(os.environ["ANALYSIS_RESULTS_DIR"]) / "Figure2/testis_transfer"
+               if os.environ.get("ANALYSIS_RESULTS_DIR")
+               else Path(__file__).resolve().parents[2] / "results/testis_transfer")
 
 # Must be given explicitly; no automatic search
 # For example:
