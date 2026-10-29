@@ -10,16 +10,15 @@ This repository organizes the downstream analyses for Figures 1–6 by biologica
 
 The workflows start from deposited representations, feature rankings and assay matrices. They do not repeat HENOSIS model training. All deposited HENOSIS representations were generated through unsupervised integration.
 
-| Figure                       | Analysis                                                                                                              | Included main panels                                                   |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [Figure 1](Figure1/README.md) | Model architecture and applications.                                                                                  | 1a–b are diagrams; no automatic drawing or numerical analysis script. |
-| [Figure 2](Figure2/README.md) | Microglial ranked-gene expression and nine-species spermatogenesis annotation transfer.                               | 2b, 2f                                                                 |
-| [Figure 3](Figure3/README.md) | Fifteen-species heart phylogeny, UMAP, cell-class conservation, matching advantage, orthology and expression support. | 3a–h                                                                  |
-| [Figure 4](Figure4/README.md) | Xenium cell-type transfer, OPC gene rankings/expression and regional age-associated glial changes.                    | 4d–e, 4i–l                                                           |
-| [Figure 5](Figure5/README.md) | Cerebellar scATAC UMAPs, developmental motif-family signals and motif/chromVAR concordance.                           | 5b–e                                                                  |
-| [Figure 6](Figure6/README.md) | Within- and cross-species RNA–ATAC integration and gene/peak interpretation.                                         | 6b–i                                                                  |
+| Figure                       | Analysis                                                                                                              |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [Figure 1](Figure1/README.md) | Model architecture and applications.                                                                                  |
+| [Figure 2](Figure2/README.md) | Microglial ranked-gene expression and nine-species spermatogenesis annotation transfer.                               |
+| [Figure 3](Figure3/README.md) | Fifteen-species heart phylogeny, UMAP, cell-class conservation, matching advantage, orthology and expression support. |
+| [Figure 4](Figure4/README.md) | Xenium cell-type transfer, OPC gene rankings/expression and regional age-associated glial changes.                    |
+| [Figure 5](Figure5/README.md) | Cerebellar scATAC UMAPs, developmental motif-family signals and motif/chromVAR concordance.                           |
+| [Figure 6](Figure6/README.md) | Within- and cross-species RNA–ATAC integration and gene/peak interpretation.                                         |
 
-Figure-specific READMEs are provided in English. The included workflows also produce some related extended analyses. Panels without packaged entry points are listed under [Scope](#scope).
 
 ## 1. Download and organize the data
 
@@ -89,7 +88,6 @@ python -m pip install -r requirements.txt
 
 Figure 6 notebooks are executed directly by the supplied Python runner; starting Jupyter or configuring a notebook kernel is unnecessary. Figure 4 Sankey export uses the pinned Plotly/Kaleido versions in `requirements.txt`.
 
-The pinned Python versions match the locally tested environment. Figure-specific dependency checks passed using the installed Python, R and FIMO components; creation of a fresh combined Conda environment has not yet been independently validated.
 
 ## 3. Configure input and output paths
 
@@ -119,8 +117,6 @@ export RSCRIPT=/path/to/r-environment/bin/Rscript
 export FIMO_BIN=/path/to/meme-environment/bin/fimo
 ```
 
-Keep the deposited input files unchanged. Use a different results directory for each run to preserve earlier outputs. Figure 5 has an additional cache-location constraint described below.
-
 ## 4. Check the setup
 
 Every figure entry point supports:
@@ -134,7 +130,6 @@ bash Figure4/run_all.sh --dry-run
 - `--dry-run` prints the commands without executing them or checking installed dependencies.
 - Running without arguments executes the included workflow and stops at the first failed step.
 
-The scripts locate their own directories, so they can also be invoked by absolute path from another working directory.
 
 ## 5. Reproduce the figures
 
@@ -210,8 +205,6 @@ Execution order:
 4. Generate chromVAR inputs, run chromVAR, and generate shared rank/sequence summaries.
 5. Lock shared results and execute the `top1000` analysis for developmental motif-family signals and oligodendrocyte concordance (5d–e), with related regulatory outputs.
 
-The bonobo genome configuration uses the deposited `panpan1.1_sequence_compatible_genomic.fna.gz`. No previous-run FIMO cache is required. Cold-cache sequence scans and chromVAR can be time-consuming.
-
 UMAP outputs are written under `$ANALYSIS_RESULTS_DIR/Figure5/`. Regulatory outputs are exposed at `Figure5/04_peak_regulatory`, which links to the actual result tree inside:
 
 ```text
@@ -258,11 +251,5 @@ bash Figure4/run_all.sh > figure4.log 2>&1
 ```
 
 Existing files with the same names can be overwritten by a rerun.
-
-## Scope
-
-This release includes entry points for 28 main-figure panels and two Figure 1 diagrams. Main panels without packaged analysis/drawing entry points are **2a, 2c–e, 4a–c, 4f–h, 5a and 6a**. Availability of an integrated H5AD alone does not imply that its corresponding panel or benchmark is implemented here.
-
-Successful execution establishes that the included analysis completed; exact numerical and visual agreement with every manuscript panel requires a separate comparison. Full model training and all alternative-method benchmarks are outside these downstream workflows.
 
 ## Data and citation
