@@ -4,6 +4,10 @@
 
 # HENOSIS unifies single-cell landscapes across species and modalities through sequence-informed integration
 
+<p align="center">
+  <img src="Figure1\Figure1.png" alt="Henosis" width="360">
+</p>
+
 ## Main-figure analysis code
 
 This repository organizes the downstream analyses for Figures 1–6 by biological question and execution step. Preprocessing, statistical analysis and plotting remain separate, and each figure has a `run_all.sh` entry point that executes the included steps in dependency order.
