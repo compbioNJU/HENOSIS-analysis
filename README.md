@@ -4,8 +4,10 @@
 
 # HENOSIS unifies single-cell landscapes across species and modalities through sequence-informed integration
 
+![Overview of the Henosis framework and its applications](Figure1\Figure1.png)
+
 <p align="center">
-  <img src="Figure1\Figure1.png" alt="Henosis" width="360">
+  <em>Henosis framework: (a) representation learning and alignment; (b) downstream applications.</em>
 </p>
 
 ## Main-figure analysis code
